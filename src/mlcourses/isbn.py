@@ -12,7 +12,8 @@ from .config import USER_AGENT
 
 
 def _words(s: str) -> set[str]:
-    return {w for w in re.findall(r"[a-z]{4,}", s.lower())}
+    """Latin words of 4+ letters, plus CJK runs of 2+ characters."""
+    return set(re.findall(r"[a-z]{4,}", s.lower())) | set(re.findall(r"[\u4e00-\u9fff]{2,}", s))
 
 
 def verify() -> int:
@@ -28,7 +29,8 @@ def verify() -> int:
                 status, got = f"not found ({r.status_code})", ""
             else:
                 got = r.json().get("title", "")
-                ok = bool(_words(got) & _words(b.title)) or not _words(b.title)
+                wt, wg = _words(b.title), _words(got)
+                ok = bool(wg & wt) or any(a in g or g in a for a in wt for g in wg)
                 status = "ok" if ok else "TITLE MISMATCH"
             results[b.slug] = status == "ok"
             bad += status != "ok"

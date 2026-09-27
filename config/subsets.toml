@@ -53,3 +53,7 @@ domains = [
 # [overrides."example.edu"]
 # search_domain = "cs.example.edu"
 [overrides]
+[overrides."uw.edu"]
+search_domain = "washington.edu"
+[overrides."uiuc.edu"]
+search_domain = "illinois.edu"

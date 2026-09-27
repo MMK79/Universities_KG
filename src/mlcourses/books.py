@@ -38,9 +38,18 @@ AUTHORISH = re.compile(r"[A-Z][a-z]+,\s?[A-Z]\.|[A-Z]\.\s?[A-Z][a-z]+|\bet al\.|
 CITATION_HINT = re.compile(
     r"ISBN|Springer|MIT Press|Cambridge|O'Reilly|Wiley|Elsevier|"
     r"Morgan Kaufmann|Pearson|Prentice|McGraw|Oxford University Press|Academic Press|CRC|"
-    r"Manning|Packt|No Starch|edition|\bed\.",
+    r"Manning|Packt|No Starch|edition|\b\d(?:st|nd|rd|th)\s+ed\b",
     re.I,
 )
+STOP_WORDS = {"and", "of", "to", "in", "for", "with", "from", "the", "a", "an", "on"}
+
+
+def _title_cased(s: str) -> bool:
+    """'Understanding Machine Learning' yes; prose 'understanding machine learning' no."""
+    words = [w for w in re.findall(r"[^\W\d_]+", s) if w.lower() not in STOP_WORDS]
+    if not words or not all(w.isascii() for w in words):
+        return True  # CJK etc.: no case information
+    return sum(w[0].isupper() for w in words) >= max(2, len(words) - 1)
 
 
 @dataclass(frozen=True)
@@ -208,6 +217,8 @@ def match_books(text: str, links: list[tuple[str, str]] = ()) -> list[BookHit]:
                 has_author = any(a.search(win) for a in b.author_res)
                 if b.generic and not has_author:
                     continue
+                if not has_author and not _title_cased(m.group(0)):
+                    continue  # a common phrase in prose, not a citation
                 if b.generic:
                     conf = 0.65
                 else:
@@ -248,6 +259,8 @@ def unmatched_citations(text: str, matched: list[BookHit], limit: int = 15) -> l
             continue
         if not (25 <= len(s) <= 400) or NOT_CITATION.search(s) or s[:60] in matched_raw:
             continue
+        if any(t.search(s) for b in catalogue() for t in b.title_res if not b.generic):
+            continue  # a catalogue book (matched elsewhere on the page)
         if CITATION_HINT.search(s) or (YEAR.search(s) and AUTHORISH.search(s) and len(s) > 40):
             out.append(BookHit(None, s, 0.3, "recommended", "regex-unmatched"))
             if len(out) >= limit:

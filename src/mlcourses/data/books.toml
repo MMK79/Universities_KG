@@ -82,7 +82,7 @@ year = 2021
 edition = "2nd (R); Python edition 2023"
 publisher = "Springer"
 isbn13 = "9781071614174"
-title_patterns = ['introduction\s+to\s+statistical\s+learning', '\bISLR\b', '\bISLP\b']
+title_patterns = ['introduction\s+to\s+statistical\s+learning(?!\s+theory)', '\bISLR\b', '\bISLP\b']
 author_patterns = ['james', 'witten', 'hastie', 'tibshirani']
 url_patterns = ["statlearning.com"]
 

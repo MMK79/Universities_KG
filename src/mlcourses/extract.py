@@ -158,12 +158,32 @@ def page_title(text: str) -> str:
     return title[:200]
 
 
-def is_ml_course(text: str, title: str) -> tuple[bool, str]:
-    head = title + "\n" + text[:1500]
+STRONG_COURSE = re.compile(
+    r"syllabus|homework|assignment|problem set|grading|office hours|prerequisite|ECTS|"
+    r"credits?|exam|midterm|vorlesung|übung|prüfung|klausur|leistungspunkte|emnekode|"
+    r"opintopiste|作业|考试|学分|課題|単位|과제|학점|تمرین|امتحان|واحد",
+    re.I,
+)
+NOT_COURSE_HOST = re.compile(
+    r"^(repository|hdsr|press|journals?|scimet|news|library|ocw)\.|"
+    r"mitpress",
+    re.I,
+)
+PAPERISH = re.compile(r"doi\.org|arxiv|\bet al\.|abstract", re.I)
+
+
+def is_ml_course(text: str, title: str, url: str = "") -> tuple[bool, str]:
+    head = title + "\n" + text[:300]
     if not ML_TITLE.search(head):
         return False, ""
-    signals = {m.group(0).lower() for m in COURSE_WORDS.finditer(text[:20000])}
-    if len(signals) < 3:
+    host = urlsplit(url).netloc.lower()
+    if NOT_COURSE_HOST.search(host) and not re.search(r"/courses?/", url):
+        return False, ""
+    body = text[:20000]
+    signals = {m.group(0).lower() for m in COURSE_WORDS.finditer(body)}
+    if len(signals) < 3 or not STRONG_COURSE.search(body):
+        return False, ""
+    if len(PAPERISH.findall(body)) > 12 and not re.search(r"syllabus|homework|grading", body, re.I):
         return False, ""
     topic = "ml-core" if CORE_ML.search(title) or CORE_ML.search(text[:300]) else "ml-related"
     return True, topic
@@ -353,16 +373,36 @@ def follow_links(links: list[tuple[str, str]], base: str, limit: int) -> list[st
     return out
 
 
+def _bad_title(t: str) -> bool:
+    t = t.strip()
+    return (
+        not t
+        or t.startswith(("-", "[", "!", "http", "|"))
+        or "](" in t
+        or bool(re.fullmatch(r"[A-Z]{2,5}[- ]?\d{3,5}[A-Z]?", t))
+    )
+
+
+OCW_CODE = re.compile(r"/courses/(\d{1,2}|[a-z]{2,4})-(s?\d{2,4}[a-z]?)-")
+
+
 def build_offering(
     page_url: str, text: str, links: list[tuple[str, str]], hint_title: str = ""
 ) -> Offering | None:
     """hint_title: the search-result title, often carries the course code the page hides."""
     title = page_title(text)
-    ok, topic = is_ml_course(text, title)
+    if _bad_title(title) and hint_title:
+        title = hint_title[:200]
+    html_title = text[7 : text.find("\n")] if text.startswith("TITLE: ") else ""
+    ok, topic = is_ml_course(text, f"{title} {html_title} {hint_title}", page_url)
     if not ok:
         return None
-    html_title = text[7 : text.find("\n")] if text.startswith("TITLE: ") else ""
-    code = find_code(f"{html_title} {title} {hint_title}", text, page_url)
+    m = OCW_CODE.search(page_url) if "ocw.mit.edu" in page_url else None
+    code = (
+        f"{m.group(1).upper()}.{m.group(2).upper()}"
+        if m
+        else find_code(f"{html_title} {title} {hint_title}", text, page_url)
+    )
     term, year = find_term(title, text, page_url)
     books = match_books(text, links)
     books += unmatched_citations(text, books)

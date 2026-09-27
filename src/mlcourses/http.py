@@ -24,6 +24,33 @@ import httpx
 from .config import CACHE, MIN_DELAY_PER_HOST, REQUEST_TIMEOUT, USER_AGENT
 
 FIRECRAWL_API = "https://api.firecrawl.dev/v2"
+_FC_LOCK = threading.Lock()  # one Firecrawl call at a time across worker threads
+_FC_MIN_GAP = 4.0
+_fc_last = [0.0]
+
+
+def firecrawl_post(endpoint: str, body: dict, key: str, timeout: float = 120) -> dict:
+    """POST to Firecrawl, serialised and spaced; retries 429/5xx with backoff."""
+    for attempt in range(6):
+        with _FC_LOCK:
+            gap = _FC_MIN_GAP - (time.monotonic() - _fc_last[0])
+            if gap > 0:
+                time.sleep(gap)
+            r = httpx.post(
+                f"{FIRECRAWL_API}/{endpoint}",
+                json=body,
+                timeout=timeout,
+                headers={"Authorization": f"Bearer {key}"},
+            )
+            _fc_last[0] = time.monotonic()
+        if r.status_code == 429 or r.status_code >= 500:
+            wait = float(r.headers.get("retry-after") or 0) or 10 * (attempt + 1)
+            time.sleep(min(wait, 90))
+            continue
+        r.raise_for_status()
+        return r.json()
+    r.raise_for_status()
+    return r.json()
 
 
 def now_iso() -> str:
@@ -126,14 +153,7 @@ class Fetcher:
         if country:
             body["country"] = country
         try:
-            r = httpx.post(
-                f"{FIRECRAWL_API}/search",
-                json=body,
-                timeout=90,
-                headers={"Authorization": f"Bearer {self.fc_key}"},
-            )
-            r.raise_for_status()
-            web = r.json().get("data", {}).get("web", [])
+            web = firecrawl_post("search", body, self.fc_key, 90).get("data", {}).get("web", [])
         except httpx.HTTPError as e:
             self.log("search", "error", query=query, detail=str(e))
             return []
@@ -231,14 +251,8 @@ class Fetcher:
         if not self.fc_key:
             return None
         try:
-            r = httpx.post(
-                f"{FIRECRAWL_API}/scrape",
-                timeout=120,
-                json={"url": url, "formats": ["markdown", "links"], "onlyMainContent": False},
-                headers={"Authorization": f"Bearer {self.fc_key}"},
-            )
-            r.raise_for_status()
-            d = r.json().get("data", {})
+            body = {"url": url, "formats": ["markdown", "links"], "onlyMainContent": False}
+            d = firecrawl_post("scrape", body, self.fc_key).get("data", {})
         except httpx.HTTPError as e:
             self.log("firecrawl_scrape", "error", url, detail=str(e))
             return None
@@ -246,8 +260,11 @@ class Fetcher:
         if not md:
             self.log("firecrawl_scrape", "empty", url)
             return None
+        meta = d.get("metadata") or {}
+        if meta.get("title"):
+            md = f"TITLE: {meta['title']}\n{md}"
         path, h = self._store_raw(url, md.encode(), "md")
-        final = (d.get("metadata") or {}).get("sourceURL") or url
+        final = meta.get("sourceURL") or url
         self.log("firecrawl_scrape", "ok", url, detail=f"md {len(md)} chars")
         return Page(
             final,

@@ -19,9 +19,11 @@ from .http import Fetcher, now_iso
 
 def process(u: University, offline: bool = False) -> dict:
     log = CACHE / "logs" / f"{u.key}.jsonl"
-    if not offline and log.exists():
-        log.unlink()  # fresh audit log per online run; the cache keeps earlier artefacts
-    f = Fetcher(log, offline=offline)
+    # append-only audit log; offline replays log to a scratch file so the real one keeps
+    # only genuine network events
+    f = Fetcher(
+        log if not offline else CACHE / "logs" / "offline" / f"{u.key}.jsonl", offline=offline
+    )
     results = []
     for q, country in queries_for(u):
         results += f.search(q, limit=10, country=country)
