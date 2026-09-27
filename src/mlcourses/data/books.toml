@@ -473,6 +473,7 @@ title = "Neural Networks and Deep Learning"
 authors = "Michael Nielsen"
 year = 2015
 publisher = "Determination Press (online)"
+generic = true  # also a common course title (e.g. Toronto CSC413)
 title_patterns = ['neural\s+networks\s+and\s+deep\s+learning']
 author_patterns = ['nielsen']
 url_patterns = ["neuralnetworksanddeeplearning.com"]

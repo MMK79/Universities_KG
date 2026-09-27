@@ -60,8 +60,11 @@ def test_material_classifier():
 def test_ranking_prefers_course_pages_on_domain():
     [u] = [u for u in load_subset("smoke") if u.key == "cmu.edu"]
     res = [
-        {"url": "https://www.cs.cmu.edu/~x/10601/", "title": "10-601 Machine Learning Spring 2024",
-         "description": "syllabus, homework, textbook"},
+        {
+            "url": "https://www.cs.cmu.edu/~x/10601/",
+            "title": "10-601 Machine Learning Spring 2024",
+            "description": "syllabus, homework, textbook",
+        },
         {"url": "https://news.cmu.edu/ml", "title": "Machine learning news", "description": ""},
         {"url": "https://example.com/ml", "title": "Machine Learning course", "description": ""},
     ]

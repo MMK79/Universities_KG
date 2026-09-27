@@ -19,7 +19,10 @@ COURSE_WORDS = re.compile(
     r"office hours|prerequisite|semester|credits?|\bTAs?\b|teaching assistant|ECTS|"
     r"textbook|course (?:description|overview|information|schedule)|vorlesung|übung|"
     r"prüfung|klausur|leistungspunkte|pensum|课程|作业|考试|講義|課題|강의|과제|시험|"
-    r"درس|تمرین|امتحان|کلاس",
+    r"درس|تمرین|امتحان|کلاس|learning (?:objectives|outcomes)|course contents?|study goals|"
+    r"assessment|contact hours|workload|undervisning|eksamen|studiepoeng|obligatorisk|"
+    r"forkunnskaper|授業|成績評価|履修|単位|シラバス|教科書|参考書|opintopiste|arviointi|"
+    r"tentti|luento",
     re.I,
 )
 CODE_RES = [
@@ -161,7 +164,8 @@ def page_title(text: str) -> str:
 STRONG_COURSE = re.compile(
     r"syllabus|homework|assignment|problem set|grading|office hours|prerequisite|ECTS|"
     r"credits?|exam|midterm|vorlesung|übung|prüfung|klausur|leistungspunkte|emnekode|"
-    r"opintopiste|作业|考试|学分|課題|単位|과제|학점|تمرین|امتحان|واحد",
+    r"opintopiste|作业|考试|学分|課題|単位|成績評価|과제|학점|تمرین|امتحان|واحد|eksamen|"
+    r"studiepoeng|tentti|assessment|learning outcomes",
     re.I,
 )
 NOT_COURSE_HOST = re.compile(
@@ -391,7 +395,9 @@ def build_offering(
 ) -> Offering | None:
     """hint_title: the search-result title, often carries the course code the page hides."""
     title = page_title(text)
-    if _bad_title(title) and hint_title:
+    if hint_title and (
+        _bad_title(title) or (not ML_TITLE.search(title) and ML_TITLE.search(hint_title))
+    ):
         title = hint_title[:200]
     html_title = text[7 : text.find("\n")] if text.startswith("TITLE: ") else ""
     ok, topic = is_ml_course(text, f"{title} {html_title} {hint_title}", page_url)

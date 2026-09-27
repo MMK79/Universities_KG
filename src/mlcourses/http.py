@@ -192,8 +192,7 @@ class Fetcher:
         if page is None or (len(page.text) < 400 and not url.lower().endswith(".pdf")):
             fc = self._fetch_firecrawl(url)
             page = fc or page
-        if page is None:
-            self._remember_failure(meta, url, "failed")
+        if page is None:  # transient failures are not cached: a rerun retries them
             return None
         meta.parent.mkdir(parents=True, exist_ok=True)
         meta.write_text(json.dumps(page.to_json(), ensure_ascii=False))

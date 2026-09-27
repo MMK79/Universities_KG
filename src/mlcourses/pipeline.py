@@ -12,7 +12,7 @@ from concurrent.futures import ThreadPoolExecutor
 from dataclasses import asdict
 
 from .config import CACHE, MAX_FOLLOW, University
-from .discover import fallback_queries, queries_for, rank_candidates
+from .discover import fallback_queries, on_domain, queries_for, rank_candidates
 from .extract import build_offering, follow_links, merge_followed
 from .http import Fetcher, now_iso
 
@@ -49,6 +49,9 @@ def process(u: University, offline: bool = False) -> dict:
                 "is_ml_course": False,
             }
         )
+        if not on_domain(page.url, u):  # redirected off-site (e.g. to a MOOC)
+            f.log("fetch", "offsite_redirect", c["url"], detail=page.url)
+            continue
         key = page.url.rstrip("/").removesuffix("/index.html")
         if key in seen_urls:
             continue
