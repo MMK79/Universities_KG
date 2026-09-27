@@ -1,0 +1,55 @@
+# Which universities to crawl. Select a subset with `--subset <name>` (Makefile: SUBSET=...).
+# A subset may list `domains` (exact match against world_universities_and_domains.json),
+# `countries` (every university of that country in the dataset — can be large!), and
+# `extra` entries for universities missing from the dataset.
+# `search_domain` overrides the domain used for site: search when the main domain is not
+# where course pages live.
+
+[subsets.pilot]
+description = "Pilot, 43 universities: US top + Canada, DE, NL, NO, FI, HK, KR, JP, CN, IR"
+domains = [
+  # United States (top of CSRankings-style lists)
+  "mit.edu", "stanford.edu", "cmu.edu", "berkeley.edu", "harvard.edu", "princeton.edu",
+  "cornell.edu", "washington.edu", "illinois.edu", "gatech.edu", "columbia.edu", "ucla.edu",
+  "ucsd.edu", "umich.edu",
+  # Canada
+  "utoronto.ca", "ubc.ca", "mcgill.ca", "uwaterloo.ca",
+  # Germany
+  "tum.de", "lmu.de", "uni-tuebingen.de", "tu-darmstadt.de", "uni-saarland.de",
+  # Netherlands
+  "tudelft.nl", "uva.nl", "tue.nl",
+  # Norway / Finland
+  "ntnu.no", "uio.no", "aalto.fi", "helsinki.fi",
+  # Hong Kong / Korea / Japan / China
+  "ust.hk", "hku.hk", "cuhk.edu.hk", "kaist.ac.kr", "snu.ac.kr", "u-tokyo.ac.jp",
+  "kyoto-u.ac.jp", "tsinghua.edu.cn", "pku.edu.cn",
+  # Iran
+  "sharif.ac.ir", "ut.ac.ir", "aut.ac.ir", "iust.ac.ir",
+]
+
+[subsets.smoke]
+description = "Three universities, for quick end-to-end checks"
+domains = ["cmu.edu", "tum.de", "sharif.ac.ir"]
+
+[subsets.countries_core]
+description = "All universities in the target countries (large: ~2-3k; costs search credits)"
+countries = ["Iran", "Germany", "Netherlands", "Norway", "Finland", "Canada", "Hong Kong",
+             "Korea, Republic of", "Japan", "China"]
+
+[subsets.us_top50]
+description = "US top-50 (CSRankings-style, 2026) — extend the list as needed"
+domains = [
+  "mit.edu", "stanford.edu", "cmu.edu", "berkeley.edu", "harvard.edu", "princeton.edu",
+  "cornell.edu", "washington.edu", "illinois.edu", "gatech.edu", "columbia.edu", "ucla.edu",
+  "ucsd.edu", "umich.edu", "utexas.edu", "nyu.edu", "upenn.edu", "umd.edu", "wisc.edu",
+  "usc.edu", "yale.edu", "jhu.edu", "duke.edu", "purdue.edu", "northwestern.edu",
+  "brown.edu", "umass.edu", "uchicago.edu", "rice.edu", "virginia.edu", "osu.edu",
+  "psu.edu", "stonybrook.edu", "uci.edu", "ucdavis.edu", "ucsb.edu", "umn.edu",
+  "rutgers.edu", "asu.edu", "vt.edu", "tamu.edu", "utah.edu", "colorado.edu",
+  "northeastern.edu", "uic.edu", "buffalo.edu", "ncsu.edu", "rpi.edu", "gmu.edu", "nd.edu",
+]
+
+# Per-domain overrides (applied in every subset), e.g.
+# [overrides."example.edu"]
+# search_domain = "cs.example.edu"
+[overrides]

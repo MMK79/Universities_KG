@@ -1,0 +1,10 @@
+university-domains-list-api
+
+# crawl cache: raw HTML/PDF/markdown snapshots, search results, per-run extraction
+cache/
+.firecrawl/
+.env
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/

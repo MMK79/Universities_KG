@@ -1,0 +1,512 @@
+# Canonical book catalogue used by the regex matcher.
+#
+# title_patterns : case-insensitive regexes that identify the title.
+# author_patterns: regexes for author surnames. If `generic = true` the title alone is too
+#                  common ("Deep Learning", "Machine Learning") and an author (or url) must
+#                  appear within the citation window for a match.
+# url_patterns   : substrings of the book's canonical/free URL — a link to it is a match.
+# isbn13         : the edition listed here; `make verify-isbns` checks it against Open Library.
+
+[[book]]
+slug = "bishop-prml"
+title = "Pattern Recognition and Machine Learning"
+authors = "Christopher M. Bishop"
+year = 2006
+publisher = "Springer"
+isbn13 = "9780387310732"
+title_patterns = ['pattern\s+recognition\s+and\s+machine\s+learning', '\bPRML\b']
+author_patterns = ['bishop']
+url_patterns = ["Bishop-Pattern-Recognition-and-Machine-Learning", "prml-book"]
+
+[[book]]
+slug = "bishop-dl"
+title = "Deep Learning: Foundations and Concepts"
+authors = "Christopher M. Bishop, Hugh Bishop"
+year = 2024
+publisher = "Springer"
+isbn13 = "9783031454677"
+title_patterns = ['deep\s+learning\W+foundations\s+and\s+concepts']
+author_patterns = ['bishop']
+url_patterns = ["bishopbook.com"]
+
+[[book]]
+slug = "murphy-mlpp"
+title = "Machine Learning: A Probabilistic Perspective"
+authors = "Kevin P. Murphy"
+year = 2012
+publisher = "MIT Press"
+isbn13 = "9780262018029"
+title_patterns = ['machine\s+learning\W+a\s+probabilistic\s+perspective', '\bMLAPP\b']
+author_patterns = ['murphy']
+url_patterns = ["murphyk/MLbook"]
+
+[[book]]
+slug = "murphy-pml1"
+title = "Probabilistic Machine Learning: An Introduction"
+authors = "Kevin P. Murphy"
+year = 2022
+publisher = "MIT Press"
+isbn13 = "9780262046824"
+title_patterns = ['probabilistic\s+machine\s+learning\W+an\s+introduction', '\bPML-?1\b']
+author_patterns = ['murphy']
+url_patterns = ["probml.github.io/pml-book/book1", "probml.github.io/book1"]
+
+[[book]]
+slug = "murphy-pml2"
+title = "Probabilistic Machine Learning: Advanced Topics"
+authors = "Kevin P. Murphy"
+year = 2023
+publisher = "MIT Press"
+isbn13 = "9780262048439"
+title_patterns = ['probabilistic\s+machine\s+learning\W+advanced\s+topics']
+author_patterns = ['murphy']
+url_patterns = ["probml.github.io/pml-book/book2"]
+
+[[book]]
+slug = "hastie-esl"
+title = "The Elements of Statistical Learning"
+authors = "Trevor Hastie, Robert Tibshirani, Jerome Friedman"
+year = 2009
+edition = "2nd"
+publisher = "Springer"
+isbn13 = "9780387848570"
+title_patterns = ['elements\s+of\s+statistical\s+learning']
+author_patterns = ['hastie', 'tibshirani', 'friedman']
+url_patterns = ["hastie/ElemStatLearn", "ElemStatLearn"]
+
+[[book]]
+slug = "james-isl"
+title = "An Introduction to Statistical Learning"
+authors = "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (, Jonathan Taylor)"
+year = 2021
+edition = "2nd (R); Python edition 2023"
+publisher = "Springer"
+isbn13 = "9781071614174"
+title_patterns = ['introduction\s+to\s+statistical\s+learning', '\bISLR\b', '\bISLP\b']
+author_patterns = ['james', 'witten', 'hastie', 'tibshirani']
+url_patterns = ["statlearning.com"]
+
+[[book]]
+slug = "goodfellow-dl"
+title = "Deep Learning"
+authors = "Ian Goodfellow, Yoshua Bengio, Aaron Courville"
+year = 2016
+publisher = "MIT Press"
+isbn13 = "9780262035613"
+generic = true
+title_patterns = ['\bdeep\s+learning\b']
+author_patterns = ['goodfellow', 'courville']
+url_patterns = ["deeplearningbook.org"]
+
+[[book]]
+slug = "mitchell-ml"
+title = "Machine Learning"
+authors = "Tom M. Mitchell"
+year = 1997
+publisher = "McGraw-Hill"
+isbn13 = "9780070428072"
+generic = true
+title_patterns = ['\bmachine\s+learning\b']
+author_patterns = ['\bmitchell\b']
+url_patterns = ["mitchell/ftp/mlbook", "MachineLearningTomMitchell"]
+
+[[book]]
+slug = "abumostafa-lfd"
+title = "Learning From Data"
+authors = "Yaser S. Abu-Mostafa, Malik Magdon-Ismail, Hsuan-Tien Lin"
+year = 2012
+publisher = "AMLBook"
+isbn13 = "9781600490064"
+generic = true
+title_patterns = ['\blearning\s+from\s+data\b']
+author_patterns = ['abu-?\s?mostafa', 'magdon']
+url_patterns = ["amlbook.com"]
+
+[[book]]
+slug = "shalev-uml"
+title = "Understanding Machine Learning: From Theory to Algorithms"
+authors = "Shai Shalev-Shwartz, Shai Ben-David"
+year = 2014
+publisher = "Cambridge University Press"
+isbn13 = "9781107057135"
+title_patterns = ['understanding\s+machine\s+learning']
+author_patterns = ['shalev', 'ben-?\s?david']
+url_patterns = ["understanding-machine-learning-theory-algorithms"]
+
+[[book]]
+slug = "geron-homl"
+title = "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow"
+authors = "Aurélien Géron"
+year = 2022
+edition = "3rd"
+publisher = "O'Reilly"
+isbn13 = "9781098125974"
+title_patterns = ['hands-?\s?on\s+machine\s+learning']
+author_patterns = ['g[ée]ron']
+url_patterns = ["ageron/handson-ml"]
+
+[[book]]
+slug = "duda-pc"
+title = "Pattern Classification"
+authors = "Richard O. Duda, Peter E. Hart, David G. Stork"
+year = 2000
+edition = "2nd"
+publisher = "Wiley"
+isbn13 = "9780471056690"
+generic = true
+title_patterns = ['\bpattern\s+classification\b']
+author_patterns = ['\bduda\b', '\bstork\b']
+url_patterns = []
+
+[[book]]
+slug = "alpaydin-iml"
+title = "Introduction to Machine Learning"
+authors = "Ethem Alpaydin"
+year = 2020
+edition = "4th"
+publisher = "MIT Press"
+isbn13 = "9780262043793"
+generic = true
+title_patterns = ['introduction\s+to\s+machine\s+learning']
+author_patterns = ['alpayd[ıi]n']
+url_patterns = []
+
+[[book]]
+slug = "mohri-fml"
+title = "Foundations of Machine Learning"
+authors = "Mehryar Mohri, Afshin Rostamizadeh, Ameet Talwalkar"
+year = 2018
+edition = "2nd"
+publisher = "MIT Press"
+isbn13 = "9780262039406"
+title_patterns = ['foundations\s+of\s+machine\s+learning']
+author_patterns = ['mohri', 'rostamizadeh', 'talwalkar']
+url_patterns = ["cs.nyu.edu/~mohri/mlbook"]
+
+[[book]]
+slug = "deisenroth-mml"
+title = "Mathematics for Machine Learning"
+authors = "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong"
+year = 2020
+publisher = "Cambridge University Press"
+isbn13 = "9781108455145"
+title_patterns = ['mathematics\s+for\s+machine\s+learning']
+author_patterns = ['deisenroth', 'faisal']
+url_patterns = ["mml-book"]
+
+[[book]]
+slug = "daume-ciml"
+title = "A Course in Machine Learning"
+authors = "Hal Daumé III"
+year = 2017
+publisher = "self-published (online)"
+title_patterns = ['a\s+course\s+in\s+machine\s+learning', '\bCIML\b']
+author_patterns = ['daum[ée]']
+url_patterns = ["ciml.info"]
+
+[[book]]
+slug = "zhang-d2l"
+title = "Dive into Deep Learning"
+authors = "Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola"
+year = 2023
+publisher = "Cambridge University Press"
+isbn13 = "9781009389433"
+title_patterns = ['dive\s+into\s+deep\s+learning', '动手学深度学习']
+author_patterns = ['lipton', 'smola']
+url_patterns = ["d2l.ai"]
+
+[[book]]
+slug = "barber-brml"
+title = "Bayesian Reasoning and Machine Learning"
+authors = "David Barber"
+year = 2012
+publisher = "Cambridge University Press"
+isbn13 = "9780521518147"
+title_patterns = ['bayesian\s+reasoning\s+and\s+machine\s+learning', '\bBRML\b']
+author_patterns = ['barber']
+url_patterns = ["brml"]
+
+[[book]]
+slug = "mackay-itila"
+title = "Information Theory, Inference, and Learning Algorithms"
+authors = "David J. C. MacKay"
+year = 2003
+publisher = "Cambridge University Press"
+isbn13 = "9780521642989"
+title_patterns = ['information\s+theory,?\s+inference,?\s+and\s+learning\s+algorithms']
+author_patterns = ['mackay']
+url_patterns = ["inference.org.uk/itila", "inference.phy.cam.ac.uk/itila", "itprnn"]
+
+[[book]]
+slug = "sutton-rl"
+title = "Reinforcement Learning: An Introduction"
+authors = "Richard S. Sutton, Andrew G. Barto"
+year = 2018
+edition = "2nd"
+publisher = "MIT Press"
+isbn13 = "9780262039246"
+title_patterns = ['reinforcement\s+learning\W+an\s+introduction']
+author_patterns = ['sutton', 'barto']
+url_patterns = ["incompleteideas.net/book"]
+
+[[book]]
+slug = "rasmussen-gpml"
+title = "Gaussian Processes for Machine Learning"
+authors = "Carl Edward Rasmussen, Christopher K. I. Williams"
+year = 2006
+publisher = "MIT Press"
+isbn13 = "9780262182539"
+title_patterns = ['gaussian\s+processes\s+for\s+machine\s+learning', '\bGPML\b']
+author_patterns = ['rasmussen']
+url_patterns = ["gaussianprocess.org/gpml"]
+
+[[book]]
+slug = "koller-pgm"
+title = "Probabilistic Graphical Models: Principles and Techniques"
+authors = "Daphne Koller, Nir Friedman"
+year = 2009
+publisher = "MIT Press"
+isbn13 = "9780262013192"
+title_patterns = ['probabilistic\s+graphical\s+models\W+principles']
+author_patterns = ['koller']
+url_patterns = []
+
+[[book]]
+slug = "scholkopf-lwk"
+title = "Learning with Kernels"
+authors = "Bernhard Schölkopf, Alexander J. Smola"
+year = 2002
+publisher = "MIT Press"
+isbn13 = "9780262194754"
+title_patterns = ['learning\s+with\s+kernels']
+author_patterns = ['sch[öo]e?lkopf', 'smola']
+url_patterns = []
+
+[[book]]
+slug = "hardt-ppa"
+title = "Patterns, Predictions, and Actions"
+authors = "Moritz Hardt, Benjamin Recht"
+year = 2022
+publisher = "Princeton University Press"
+isbn13 = "9780691233727"
+title_patterns = ['patterns,?\s+predictions,?\s+and\s+actions']
+author_patterns = ['hardt', 'recht']
+url_patterns = ["mlstory.org"]
+
+[[book]]
+slug = "prince-udl"
+title = "Understanding Deep Learning"
+authors = "Simon J. D. Prince"
+year = 2023
+publisher = "MIT Press"
+isbn13 = "9780262048644"
+title_patterns = ['understanding\s+deep\s+learning']
+author_patterns = ['prince']
+url_patterns = ["udlbook"]
+
+[[book]]
+slug = "raschka-mlpytorch"
+title = "Machine Learning with PyTorch and Scikit-Learn"
+authors = "Sebastian Raschka, Yuxi (Hayden) Liu, Vahid Mirjalili"
+year = 2022
+publisher = "Packt"
+isbn13 = "9781801819312"
+title_patterns = ['machine\s+learning\s+with\s+pytorch\s+and\s+scikit', 'python\s+machine\s+learning']
+author_patterns = ['raschka']
+url_patterns = []
+
+[[book]]
+slug = "zhou-ml"
+title = "机器学习 (Machine Learning, 'watermelon book')"
+authors = "Zhou Zhihua (周志华)"
+year = 2016
+publisher = "Tsinghua University Press"
+isbn13 = "9787302423287"
+title_patterns = ['西瓜书', '周志华[^\n]{0,20}机器学习', '机器学习[^\n]{0,20}周志华']
+author_patterns = ['周志华', 'zhou\s+zhi-?hua']
+url_patterns = []
+
+[[book]]
+slug = "lihang-slm"
+title = "统计学习方法 (Statistical Learning Methods)"
+authors = "Li Hang (李航)"
+year = 2019
+edition = "2nd"
+publisher = "Tsinghua University Press"
+isbn13 = "9787302517276"
+title_patterns = ['统计学习方法']
+author_patterns = ['李航', 'li\s+hang']
+url_patterns = []
+
+[[book]]
+slug = "theodoridis-mlbo"
+title = "Machine Learning: A Bayesian and Optimization Perspective"
+authors = "Sergios Theodoridis"
+year = 2020
+edition = "2nd"
+publisher = "Academic Press"
+isbn13 = "9780128188033"
+title_patterns = ['bayesian\s+and\s+optimization\s+perspective']
+author_patterns = ['theodoridis']
+url_patterns = []
+
+[[book]]
+slug = "theodoridis-pr"
+title = "Pattern Recognition"
+authors = "Sergios Theodoridis, Konstantinos Koutroumbas"
+year = 2008
+edition = "4th"
+publisher = "Academic Press"
+isbn13 = "9781597492720"
+generic = true
+title_patterns = ['\bpattern\s+recognition\b']
+author_patterns = ['theodoridis', 'koutroumbas']
+url_patterns = []
+
+[[book]]
+slug = "flach-ml"
+title = "Machine Learning: The Art and Science of Algorithms that Make Sense of Data"
+authors = "Peter Flach"
+year = 2012
+publisher = "Cambridge University Press"
+isbn13 = "9781107422223"
+title_patterns = ['art\s+and\s+science\s+of\s+algorithms\s+that\s+make\s+sense\s+of\s+data']
+author_patterns = ['flach']
+url_patterns = []
+
+[[book]]
+slug = "russell-aima"
+title = "Artificial Intelligence: A Modern Approach"
+authors = "Stuart Russell, Peter Norvig"
+year = 2020
+edition = "4th"
+publisher = "Pearson"
+isbn13 = "9780134610993"
+title_patterns = ['artificial\s+intelligence\W+a\s+modern\s+approach', '\bAIMA\b']
+author_patterns = ['russell', 'norvig']
+url_patterns = ["aima.cs.berkeley.edu"]
+
+[[book]]
+slug = "bishop-nnpr"
+title = "Neural Networks for Pattern Recognition"
+authors = "Christopher M. Bishop"
+year = 1995
+publisher = "Oxford University Press"
+isbn13 = "9780198538646"
+title_patterns = ['neural\s+networks\s+for\s+pattern\s+recognition']
+author_patterns = ['bishop']
+url_patterns = []
+
+[[book]]
+slug = "haykin-nnlm"
+title = "Neural Networks and Learning Machines"
+authors = "Simon Haykin"
+year = 2009
+edition = "3rd"
+publisher = "Pearson"
+isbn13 = "9780131471399"
+title_patterns = ['neural\s+networks\s+and\s+learning\s+machines', 'neural\s+networks\W+a\s+comprehensive\s+foundation']
+author_patterns = ['haykin']
+url_patterns = []
+
+[[book]]
+slug = "vapnik-nslt"
+title = "The Nature of Statistical Learning Theory"
+authors = "Vladimir N. Vapnik"
+year = 2000
+edition = "2nd"
+publisher = "Springer"
+isbn13 = "9780387987804"
+title_patterns = ['nature\s+of\s+statistical\s+learning\s+theory']
+author_patterns = ['vapnik']
+url_patterns = []
+
+[[book]]
+slug = "bach-ltfp"
+title = "Learning Theory from First Principles"
+authors = "Francis Bach"
+year = 2024
+publisher = "MIT Press"
+isbn13 = "9780262049443"
+title_patterns = ['learning\s+theory\s+from\s+first\s+principles']
+author_patterns = ['\bbach\b']
+url_patterns = ["ltfp_book"]
+
+[[book]]
+slug = "chollet-dlp"
+title = "Deep Learning with Python"
+authors = "François Chollet"
+year = 2021
+edition = "2nd"
+publisher = "Manning"
+isbn13 = "9781617296864"
+title_patterns = ['deep\s+learning\s+with\s+python']
+author_patterns = ['chollet']
+url_patterns = []
+
+[[book]]
+slug = "wasserman-aos"
+title = "All of Statistics"
+authors = "Larry Wasserman"
+year = 2004
+publisher = "Springer"
+isbn13 = "9780387402727"
+title_patterns = ['all\s+of\s+statistics']
+author_patterns = ['wasserman']
+url_patterns = []
+
+[[book]]
+slug = "boyd-cvx"
+title = "Convex Optimization"
+authors = "Stephen Boyd, Lieven Vandenberghe"
+year = 2004
+publisher = "Cambridge University Press"
+isbn13 = "9780521833783"
+generic = true
+title_patterns = ['\bconvex\s+optimization\b']
+author_patterns = ['\bboyd\b', 'vandenberghe']
+url_patterns = ["stanford.edu/~boyd/cvxbook"]
+
+[[book]]
+slug = "nielsen-nndl"
+title = "Neural Networks and Deep Learning"
+authors = "Michael Nielsen"
+year = 2015
+publisher = "Determination Press (online)"
+title_patterns = ['neural\s+networks\s+and\s+deep\s+learning']
+author_patterns = ['nielsen']
+url_patterns = ["neuralnetworksanddeeplearning.com"]
+
+[[book]]
+slug = "burkov-hpmlb"
+title = "The Hundred-Page Machine Learning Book"
+authors = "Andriy Burkov"
+year = 2019
+publisher = "self-published"
+isbn13 = "9781999579500"
+title_patterns = ['hundred-?\s?page\s+machine\s+learning']
+author_patterns = ['burkov']
+url_patterns = ["themlbook.com"]
+
+[[book]]
+slug = "kroese-dsml"
+title = "Data Science and Machine Learning: Mathematical and Statistical Methods"
+authors = "Dirk P. Kroese, Zdravko Botev, Thomas Taimre, Radislav Vaisman"
+year = 2019
+publisher = "Chapman & Hall/CRC"
+isbn13 = "9781138492530"
+title_patterns = ['data\s+science\s+and\s+machine\s+learning\W+mathematical']
+author_patterns = ['kroese']
+url_patterns = []
+
+[[book]]
+slug = "witten-dm"
+title = "Data Mining: Practical Machine Learning Tools and Techniques"
+authors = "Ian H. Witten, Eibe Frank, Mark A. Hall, Christopher J. Pal"
+year = 2016
+edition = "4th"
+publisher = "Morgan Kaufmann"
+isbn13 = "9780128042915"
+title_patterns = ['data\s+mining\W+practical\s+machine\s+learning']
+author_patterns = ['witten', 'eibe']
+url_patterns = []

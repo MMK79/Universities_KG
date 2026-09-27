@@ -1,0 +1,20 @@
+# Postgres for the ML-course database. Host port 5434 (5432 is taken on this machine).
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: mlcourses-db
+    environment:
+      POSTGRES_USER: mlcourses
+      POSTGRES_PASSWORD: mlcourses
+      POSTGRES_DB: mlcourses
+    ports:
+      - "5434:5432"
+    volumes:
+      - mlcourses-pgdata:/var/lib/postgresql/data
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mlcourses"]
+      interval: 2s
+      retries: 30
+volumes:
+  mlcourses-pgdata:
