@@ -17,8 +17,34 @@ def connect() -> psycopg.Connection:
     return psycopg.connect(DATABASE_URL)
 
 
+# Phase-2 download results. Deliberately NOT tied to `materials` by a foreign key and not
+# dropped by schema.sql: `load` rebuilds `materials`, but downloaded files must survive it.
+# Keyed by URL; join to `materials` on url. Mirrors the DDL note at the end of schema.sql.
+MATERIAL_FILES_DDL = """
+CREATE TABLE IF NOT EXISTS material_files (
+    url          text PRIMARY KEY,
+    status       text NOT NULL,   -- ok | skipped-robots | too-large | http-error |
+                                  -- not-document | skipped-login
+    local_path   text,            -- relative to the materials root
+    bytes        bigint,
+    sha256       text,
+    content_type text,
+    http_status  int,
+    detail       text,
+    fetched_at   timestamptz NOT NULL
+);
+CREATE INDEX IF NOT EXISTS material_files_sha ON material_files (sha256);
+"""
+
+
+def ensure_material_files(conn: psycopg.Connection) -> None:
+    conn.execute(MATERIAL_FILES_DDL)
+    conn.commit()
+
+
 def apply_schema(conn: psycopg.Connection) -> None:
     conn.execute((ROOT / "db" / "schema.sql").read_text())
+    conn.execute(MATERIAL_FILES_DDL)  # IF NOT EXISTS: keeps downloaded-file records
     conn.commit()
 
 

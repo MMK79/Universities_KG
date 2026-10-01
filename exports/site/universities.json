@@ -1,0 +1,350 @@
+{
+ "subset": "pilot",
+ "generated_at": "2026-10-01T09:27:14+00:00",
+ "items": [
+  {
+   "name": "McGill University",
+   "country": "Canada",
+   "domain": "mcgill.ca",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 4
+  },
+  {
+   "name": "University of British Columbia",
+   "country": "Canada",
+   "domain": "ubc.ca",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 6
+  },
+  {
+   "name": "University of Toronto",
+   "country": "Canada",
+   "domain": "utoronto.ca",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 6
+  },
+  {
+   "name": "University of Waterloo",
+   "country": "Canada",
+   "domain": "uwaterloo.ca",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 6
+  },
+  {
+   "name": "Peking University",
+   "country": "China",
+   "domain": "pku.edu.cn",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 6
+  },
+  {
+   "name": "Tsinghua University",
+   "country": "China",
+   "domain": "tsinghua.edu.cn",
+   "ml_course_found": false,
+   "textbook_extracted": false,
+   "n_offerings": 0
+  },
+  {
+   "name": "Aalto University",
+   "country": "Finland",
+   "domain": "aalto.fi",
+   "ml_course_found": true,
+   "textbook_extracted": false,
+   "n_offerings": 1
+  },
+  {
+   "name": "University of Helsinki",
+   "country": "Finland",
+   "domain": "helsinki.fi",
+   "ml_course_found": false,
+   "textbook_extracted": false,
+   "n_offerings": 0
+  },
+  {
+   "name": "Eberhard-Karls-Universität Tübingen",
+   "country": "Germany",
+   "domain": "uni-tuebingen.de",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 5
+  },
+  {
+   "name": "Ludwig-Maximilians-Universität München",
+   "country": "Germany",
+   "domain": "lmu.de",
+   "ml_course_found": false,
+   "textbook_extracted": false,
+   "n_offerings": 0
+  },
+  {
+   "name": "Technische Universität Darmstadt",
+   "country": "Germany",
+   "domain": "tu-darmstadt.de",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 6
+  },
+  {
+   "name": "Technische Universität München",
+   "country": "Germany",
+   "domain": "tum.de",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 4
+  },
+  {
+   "name": "Universität des Saarlandes",
+   "country": "Germany",
+   "domain": "uni-saarland.de",
+   "ml_course_found": false,
+   "textbook_extracted": false,
+   "n_offerings": 0
+  },
+  {
+   "name": "The Chinese University of Hong Kong",
+   "country": "Hong Kong",
+   "domain": "cuhk.edu.hk",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 2
+  },
+  {
+   "name": "The Hong Kong University of Science and Technology",
+   "country": "Hong Kong",
+   "domain": "ust.hk",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 1
+  },
+  {
+   "name": "The University of Hong Kong",
+   "country": "Hong Kong",
+   "domain": "hku.hk",
+   "ml_course_found": true,
+   "textbook_extracted": false,
+   "n_offerings": 1
+  },
+  {
+   "name": "Amirkabir University of Technology",
+   "country": "Iran",
+   "domain": "aut.ac.ir",
+   "ml_course_found": false,
+   "textbook_extracted": false,
+   "n_offerings": 0
+  },
+  {
+   "name": "Iran University of Science and Technology Tehran",
+   "country": "Iran",
+   "domain": "iust.ac.ir",
+   "ml_course_found": false,
+   "textbook_extracted": false,
+   "n_offerings": 0
+  },
+  {
+   "name": "Sharif University of Technology",
+   "country": "Iran",
+   "domain": "sharif.ac.ir",
+   "ml_course_found": false,
+   "textbook_extracted": false,
+   "n_offerings": 0
+  },
+  {
+   "name": "University of Tehran",
+   "country": "Iran",
+   "domain": "ut.ac.ir",
+   "ml_course_found": false,
+   "textbook_extracted": false,
+   "n_offerings": 0
+  },
+  {
+   "name": "Kyoto University",
+   "country": "Japan",
+   "domain": "kyoto-u.ac.jp",
+   "ml_course_found": true,
+   "textbook_extracted": false,
+   "n_offerings": 1
+  },
+  {
+   "name": "University of Tokyo",
+   "country": "Japan",
+   "domain": "u-tokyo.ac.jp",
+   "ml_course_found": true,
+   "textbook_extracted": false,
+   "n_offerings": 4
+  },
+  {
+   "name": "Korea Advanced Institute of Science & Technology",
+   "country": "Korea, Republic of",
+   "domain": "kaist.ac.kr",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 1
+  },
+  {
+   "name": "Seoul National University",
+   "country": "Korea, Republic of",
+   "domain": "snu.ac.kr",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 6
+  },
+  {
+   "name": "Delft University of Technology",
+   "country": "Netherlands",
+   "domain": "tudelft.nl",
+   "ml_course_found": true,
+   "textbook_extracted": false,
+   "n_offerings": 1
+  },
+  {
+   "name": "Eindhoven University of Technology",
+   "country": "Netherlands",
+   "domain": "tue.nl",
+   "ml_course_found": false,
+   "textbook_extracted": false,
+   "n_offerings": 0
+  },
+  {
+   "name": "University of Amsterdam",
+   "country": "Netherlands",
+   "domain": "uva.nl",
+   "ml_course_found": false,
+   "textbook_extracted": false,
+   "n_offerings": 0
+  },
+  {
+   "name": "Norwegian University of Science and Technology",
+   "country": "Norway",
+   "domain": "ntnu.no",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 6
+  },
+  {
+   "name": "University of Oslo",
+   "country": "Norway",
+   "domain": "uio.no",
+   "ml_course_found": true,
+   "textbook_extracted": false,
+   "n_offerings": 4
+  },
+  {
+   "name": "Carnegie Mellon University",
+   "country": "United States",
+   "domain": "cmu.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 5
+  },
+  {
+   "name": "Columbia University",
+   "country": "United States",
+   "domain": "columbia.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 6
+  },
+  {
+   "name": "Cornell University",
+   "country": "United States",
+   "domain": "cornell.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 6
+  },
+  {
+   "name": "Georgia Institute of Technology",
+   "country": "United States",
+   "domain": "gatech.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 5
+  },
+  {
+   "name": "Harvard University",
+   "country": "United States",
+   "domain": "harvard.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 3
+  },
+  {
+   "name": "Massachusetts Institute of Technology",
+   "country": "United States",
+   "domain": "mit.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 4
+  },
+  {
+   "name": "Princeton University",
+   "country": "United States",
+   "domain": "princeton.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 4
+  },
+  {
+   "name": "Stanford University",
+   "country": "United States",
+   "domain": "stanford.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 6
+  },
+  {
+   "name": "University of California, Berkeley",
+   "country": "United States",
+   "domain": "berkeley.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 5
+  },
+  {
+   "name": "University of California, Los Angeles",
+   "country": "United States",
+   "domain": "ucla.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 5
+  },
+  {
+   "name": "University of California, San Diego",
+   "country": "United States",
+   "domain": "ucsd.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 3
+  },
+  {
+   "name": "University of Illinois Urbana-Champaign",
+   "country": "United States",
+   "domain": "uiuc.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 6
+  },
+  {
+   "name": "University of Michigan - Ann Arbor",
+   "country": "United States",
+   "domain": "umich.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 5
+  },
+  {
+   "name": "University of Washington",
+   "country": "United States",
+   "domain": "uw.edu",
+   "ml_course_found": true,
+   "textbook_extracted": true,
+   "n_offerings": 4
+  }
+ ]
+}

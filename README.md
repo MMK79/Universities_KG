@@ -15,6 +15,8 @@ uv sync
 make up                    # Postgres 16 in docker, host port 5434, schema auto-applied
 make crawl SUBSET=pilot    # search + fetch + extract + load (needs FIRECRAWL_API_KEY)
 make report                # regenerate docs/findings-data.md from the database
+make download-materials    # phase 2: polite, resumable download of public PDF/PPTX slides + notes
+make export-site           # write JSON for the website to exports/site/
 make test                  # pytest (DB test skipped if Postgres is down)
 make lint                  # ruff
 make psql                  # open a SQL shell
@@ -39,7 +41,8 @@ SELECT u.name, c.code, c.title, o.term, o.url                  -- courses per un
   JOIN universities u ON u.id=c.university_id ORDER BY 1;
 SELECT raw_citation, source_url FROM course_books              -- catalogue gaps
   WHERE book_id IS NULL;
-SELECT type, count(*) FROM materials GROUP BY 1;               -- phase-2 materials
+SELECT type, count(*) FROM materials GROUP BY 1;               -- material links
+SELECT status, count(*), sum(bytes) FROM material_files GROUP BY 1;  -- downloaded files
 ```
 
 ## Layout
@@ -50,13 +53,20 @@ SELECT type, count(*) FROM materials GROUP BY 1;               -- phase-2 materi
 | `src/mlcourses/data/books.toml` | canonical textbook catalogue (patterns, ISBN-13, checked against Open Library) |
 | `config/subsets.toml` | which universities to crawl; per-domain overrides |
 | `db/schema.sql` | Postgres schema |
+| `src/mlcourses/materials_dl.py` | phase-2 downloader (robots, 1 req/s/host, 50 MB/file, 6 GB total, resumable) |
+| `src/mlcourses/export_site.py`, `exports/site/` | JSON export for the website: pipeline, universities, textbooks, courses, materials, quality |
 | `main.py`, `produced_files/` | the original open-courseware link scrapers (paperhelp / learningplatforms lists) — kept as is |
 | `world_universities_and_domains.json`, `university-domains-list-api/` | Hipo university/domain list, the university source |
 
 ## Etiquette
 
 robots.txt is honoured for every URL (also before handing a page to Firecrawl), ≥3 s per
-host, honest User-Agent, no logins. See `docs/spec.md` §5.
+host for pages (≥1 s per host for file downloads), honest User-Agent, no logins. See `docs/spec.md` §5.
+
+Downloaded files are stored outside the repo, in
+`/Volumes/MigMig/Personal/Research/ML Course Materials/<country>/<university>/<course-code>/`;
+`material_files` in the database records status, path, size and sha256 for each URL.
+`make download-materials` skips what is already done and retries only HTTP errors.
 
 ## Sources
 

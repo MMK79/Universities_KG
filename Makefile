@@ -3,7 +3,7 @@ SUBSET ?= pilot
 export DATABASE_URL ?= postgresql://mlcourses:mlcourses@localhost:5434/mlcourses
 FIRECRAWL_ENV ?= $(HOME)/Documents/Obsidian Vaults/Personal/.env
 
-.PHONY: up down schema crawl extract load report test lint psql verify-isbns
+.PHONY: download-materials export-site up down schema crawl extract load report test lint psql verify-isbns
 
 up:            ## start Postgres (schema applied on first start)
 	docker compose up -d --wait
@@ -29,6 +29,12 @@ report:        ## write docs/findings-data.md tables from the database
 
 verify-isbns:  ## check the canonical catalogue ISBNs against Open Library
 	uv run mlcourses verify-isbns
+
+download-materials:  ## phase 2: polite download of public PDF/PPTX slides + notes (resumable)
+	uv run mlcourses download-materials --subset $(SUBSET)
+
+export-site:   ## write JSON for the website to exports/site/
+	uv run mlcourses export-site --subset $(SUBSET)
 
 test:
 	uv run pytest -q

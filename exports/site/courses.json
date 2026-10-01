@@ -1,0 +1,3498 @@
+{
+ "subset": "pilot",
+ "generated_at": "2026-10-01T09:27:14+00:00",
+ "items": [
+  {
+   "university": "Aalto University",
+   "country": "Finland",
+   "code": "AIMC 2023",
+   "title": "Deep Learning with Audio: An Explorative Syllabus for Music Composition and Production",
+   "topic": "ml-related",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "https://acris.aalto.fi/ws/portalfiles/portal/130178643/7yjj66vkh857zyaul6mprk0pzys0mnj7.pdf",
+   "books": [],
+   "unmatched_citations": 8,
+   "materials": {}
+  },
+  {
+   "university": "Carnegie Mellon University",
+   "country": "United States",
+   "code": "10-301",
+   "title": "Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Spring 2026",
+   "year": 2026,
+   "url": "https://www.cs.cmu.edu/~mgormley/courses/10601/",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "textbook"
+    },
+    {
+     "title": "Mathematics for Machine Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework": 10,
+    "homework_solution": 3,
+    "exam": 1,
+    "video": 1,
+    "slides": 54,
+    "exam_solution": 3,
+    "lecture_notes": 1
+   }
+  },
+  {
+   "university": "Carnegie Mellon University",
+   "country": "United States",
+   "code": "10-701",
+   "title": "10-701: Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Spring 2007",
+   "year": 2007,
+   "url": "http://www.cs.cmu.edu/~guestrin/Class/10701-S07/",
+   "books": [
+    {
+     "title": "Information Theory, Inference, and Learning Algorithms",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 1,
+   "materials": {
+    "exam_solution": 16,
+    "homework": 6,
+    "exam": 12,
+    "slides": 29,
+    "lecture_notes": 1,
+    "homework_solution": 5
+   }
+  },
+  {
+   "university": "Carnegie Mellon University",
+   "country": "United States",
+   "code": "10-701",
+   "title": "10-701: Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Spring 2011",
+   "year": 2011,
+   "url": "https://www.cs.cmu.edu/~tom/10701_sp11/hws.shtml",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework_solution": 7,
+    "homework": 7
+   }
+  },
+  {
+   "university": "Carnegie Mellon University",
+   "country": "United States",
+   "code": "10-701",
+   "title": "10-701: Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Spring 2024",
+   "year": 2024,
+   "url": "https://www.cs.cmu.edu/~hchai2/courses/10701/",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Dive into Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    },
+    {
+     "title": "Mathematics for Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "exam_solution": 2,
+    "slides": 52,
+    "exam": 1,
+    "video": 1,
+    "homework": 7
+   }
+  },
+  {
+   "university": "Carnegie Mellon University",
+   "country": "United States",
+   "code": "MLDL 165B",
+   "title": "165B Machine Learning (Winter 2022)",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Winter 2022",
+   "year": 2022,
+   "url": "https://www.cs.cmu.edu/~leili/course/mldl22w/index.html",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Dive into Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Mathematics for Machine Learning",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "slides": 3
+   }
+  },
+  {
+   "university": "Columbia University",
+   "country": "United States",
+   "code": "COMS 4771",
+   "title": "Machine Learning",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Fall 2025",
+   "year": 2025,
+   "url": "http://www.cs.columbia.edu/~djhsu/coms4771-f25/",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Mathematics for Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Classification",
+     "role": "recommended"
+    },
+    {
+     "title": "Patterns, Predictions, and Actions",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 12,
+    "slides": 17,
+    "homework": 8,
+    "video": 3
+   }
+  },
+  {
+   "university": "Columbia University",
+   "country": "United States",
+   "code": "COMS 4771",
+   "title": "Machine Learning",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Fall 2026",
+   "year": 2026,
+   "url": "https://www.cs.columbia.edu/~verma/classes/ml/index.html",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Convex Optimization",
+     "role": "mentioned"
+    },
+    {
+     "title": "Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Mathematics for Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Understanding Machine Learning: From Theory to Algorithms",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1
+   }
+  },
+  {
+   "university": "Columbia University",
+   "country": "United States",
+   "code": "COMS 4771",
+   "title": "Machine Learning",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": null,
+   "year": null,
+   "url": "https://www.cs.columbia.edu/~verma/classes/ml/faq.html",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Columbia University",
+   "country": "United States",
+   "code": "COMS 4995",
+   "title": "COMS 4995-1 Spring 2020 (Machine Learning Theory)",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Spring 2020",
+   "year": 2020,
+   "url": "http://www.cs.columbia.edu/~djhsu/coms4995-s20/",
+   "books": [
+    {
+     "title": "Convex Optimization",
+     "role": "mentioned"
+    },
+    {
+     "title": "Foundations of Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Understanding Machine Learning: From Theory to Algorithms",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework": 6,
+    "lecture_notes": 13,
+    "slides": 7
+   }
+  },
+  {
+   "university": "Columbia University",
+   "country": "United States",
+   "code": "COMS W4995",
+   "title": "COMS W4995 Applied Machine Learning Spring 2020 - Andreas C. Müller - Associate Research Scientist",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Spring 2020",
+   "year": 2020,
+   "url": "https://www.cs.columbia.edu/~amueller/comsw4995s20/",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 1,
+    "video": 22,
+    "homework": 5
+   }
+  },
+  {
+   "university": "Columbia University",
+   "country": "United States",
+   "code": "COMSE6998",
+   "title": "[COMSE6998-013] High-Performance Machine Learning - Fall 2024",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Fall 2024",
+   "year": 2024,
+   "url": "https://www.cs.columbia.edu/~aa4870/high-performance-machine-learning/",
+   "books": [],
+   "unmatched_citations": 3,
+   "materials": {}
+  },
+  {
+   "university": "Cornell University",
+   "country": "United States",
+   "code": "CS4780",
+   "title": "Machine Learning",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Fall 2014",
+   "year": 2014,
+   "url": "https://www.cs.cornell.edu/courses/cs4780/2014fa/",
+   "books": [
+    {
+     "title": "Introduction to Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Learning with Kernels",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "textbook"
+    },
+    {
+     "title": "Pattern Classification",
+     "role": "textbook"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 5,
+   "materials": {
+    "slides": 47
+   }
+  },
+  {
+   "university": "Cornell University",
+   "country": "United States",
+   "code": "CS4780",
+   "title": "Machine Learning",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Spring 2017",
+   "year": 2017,
+   "url": "https://courses.cis.cornell.edu/cs4780/2017sp/",
+   "books": [
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "exam": 1,
+    "homework_solution": 6,
+    "homework": 6
+   }
+  },
+  {
+   "university": "Cornell University",
+   "country": "United States",
+   "code": "CS4787",
+   "title": "Lecture 1: Course Overview. Why Scale Machine Learning?",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Fall 2023",
+   "year": 2023,
+   "url": "https://www.cs.cornell.edu/courses/cs4787/2023fa/lectures/lecture1.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Cornell University",
+   "country": "United States",
+   "code": "CS4787",
+   "title": "Lecture 1: Course Overview. Why Scale Machine Learning?",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Fall 2025",
+   "year": 2025,
+   "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Understanding Machine Learning: From Theory to Algorithms",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 3,
+   "materials": {
+    "homework": 7,
+    "slides": 9
+   }
+  },
+  {
+   "university": "Cornell University",
+   "country": "United States",
+   "code": "INFO 4940",
+   "title": "INFO 4940/5940: Applied Machine Learning: Methods and Applications",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": null,
+   "year": null,
+   "url": "https://info4940.infosci.cornell.edu/",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework": 20,
+    "lecture_notes": 1,
+    "slides": 23
+   }
+  },
+  {
+   "university": "Cornell University",
+   "country": "United States",
+   "code": null,
+   "title": "Assignments – Practical Applications in Machine Learning (PAML)",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": null,
+   "year": null,
+   "url": "https://pamlclass.cis.cornell.edu/homeworks/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Delft University of Technology",
+   "country": "Netherlands",
+   "code": null,
+   "title": "EE4C12 Machine learning for Electrical Engineering",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": null,
+   "url": "https://microelectronics.tudelft.nl/Education/coursedetail.php?mi=179",
+   "books": [],
+   "unmatched_citations": 1,
+   "materials": {}
+  },
+  {
+   "university": "Eberhard-Karls-Universität Tübingen",
+   "country": "Germany",
+   "code": "INF3152",
+   "title": "Grundlagen des maschinellen Lernens (Praktikum)",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Winter 2024",
+   "year": 2024,
+   "url": "https://courses.cs.uni-tuebingen.de/main/module/detail/28/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Eberhard-Karls-Universität Tübingen",
+   "country": "Germany",
+   "code": "ML-4103",
+   "title": "Deep Learning | Universität Tübingen",
+   "topic": "ml-related",
+   "level": "mixed",
+   "term": "WS 2025/26",
+   "year": 2025,
+   "url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/deep-learning/",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Dive into Deep Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Mathematics for Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework": 1,
+    "slides": 12,
+    "video": 52,
+    "exam": 2,
+    "lecture_notes": 1
+   }
+  },
+  {
+   "university": "Eberhard-Karls-Universität Tübingen",
+   "country": "Germany",
+   "code": "ML-4201",
+   "title": "ML-4201 Statistical Machine Learning",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Sommersemester 2022",
+   "year": 2022,
+   "url": "https://courses.cs.uni-tuebingen.de/main/module/detail/316/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Eberhard-Karls-Universität Tübingen",
+   "country": "Germany",
+   "code": "ML-4302",
+   "title": "ML-4302 Statistical Learning Theory",
+   "topic": "ml-related",
+   "level": "unknown",
+   "term": null,
+   "year": null,
+   "url": "https://courses.cs.uni-tuebingen.de/main/module/detail/318/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Eberhard-Karls-Universität Tübingen",
+   "country": "Germany",
+   "code": null,
+   "title": "Probabilistic Machine Learning | University of Tübingen",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Summer 2020",
+   "year": 2020,
+   "url": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/lehre/probabilistic-machine-learning/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "slides": 27,
+    "video": 32
+   }
+  },
+  {
+   "university": "Georgia Institute of Technology",
+   "country": "United States",
+   "code": "CS 4644",
+   "title": "Deep Learning",
+   "topic": "ml-related",
+   "level": "mixed",
+   "term": "Fall 2026",
+   "year": 2026,
+   "url": "https://syllabus.gatech.edu/sites/default/files/2026-04/Fall-2026-91006-Xu-CS-4644-A.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Georgia Institute of Technology",
+   "country": "United States",
+   "code": "CS 7545",
+   "title": "CS 7545 Machine Learning Theory",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Fall 2026",
+   "year": 2026,
+   "url": "https://syllabus.gatech.edu/sites/default/files/2026-04/CS%207545%2C%20F26%2C%20Advertised%20Syllabus.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Georgia Institute of Technology",
+   "country": "United States",
+   "code": "CS-7641",
+   "title": "[PDF] Machine Learning - CS-7641-O01 - OMSCS - Georgia Tech",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Fall 2026",
+   "year": 2026,
+   "url": "https://omscs.gatech.edu/cs-7641-machine-learning",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework": 1,
+    "video": 1
+   }
+  },
+  {
+   "university": "Georgia Institute of Technology",
+   "country": "United States",
+   "code": "CS-7641",
+   "title": "[PDF] Machine Learning - CS-7641-O01 - OMSCS - Georgia Tech",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": null,
+   "year": null,
+   "url": "https://omscs.gatech.edu/sites/default/files/documents/Syllabi/CS%207641%202025-1.pdf",
+   "books": [
+    {
+     "title": "All of Statistics",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Reinforcement Learning: An Introduction",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 2,
+   "materials": {}
+  },
+  {
+   "university": "Georgia Institute of Technology",
+   "country": "United States",
+   "code": "CS7646",
+   "title": "Machine Learning for Trading Course",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Fall 2023",
+   "year": 2023,
+   "url": "https://lucylabs.gatech.edu/ml4t/",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 11,
+    "exam": 13,
+    "homework": 3,
+    "slides": 1
+   }
+  },
+  {
+   "university": "Harvard University",
+   "country": "United States",
+   "code": "CRN 15407",
+   "title": "Advanced Machine Learning, Data Mining, and Artificial Intelligence",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Fall 2026",
+   "year": 2026,
+   "url": "https://coursebrowser.dce.harvard.edu/course/advanced-machine-learning-data-mining-and-artificial-intelligence/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Harvard University",
+   "country": "United States",
+   "code": "CS281",
+   "title": "CS281: Advanced Machine Learning",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Fall 2013",
+   "year": 2013,
+   "url": "https://groups.seas.harvard.edu/courses/cs281/",
+   "books": [
+    {
+     "title": "Bayesian Reasoning and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Gaussian Processes for Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Information Theory, Inference, and Learning Algorithms",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "textbook"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Probabilistic Graphical Models: Principles and Techniques",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 19,
+   "materials": {
+    "exam_solution": 19,
+    "exam": 2,
+    "lecture_notes": 6,
+    "video": 1,
+    "homework": 11
+   }
+  },
+  {
+   "university": "Harvard University",
+   "country": "United States",
+   "code": "CSCI E-104",
+   "title": "Advanced Deep Learning",
+   "topic": "ml-related",
+   "level": "mixed",
+   "term": "Spring 2027",
+   "year": 2027,
+   "url": "https://coursebrowser.dce.harvard.edu/course/advanced-deep-learning/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Korea Advanced Institute of Science & Technology",
+   "country": "Korea, Republic of",
+   "code": null,
+   "title": "Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": null,
+   "year": null,
+   "url": "https://bmol.kaist.ac.kr/teachings/introduction-to-machine-learning/",
+   "books": [
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "textbook"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "slides": 1
+   }
+  },
+  {
+   "university": "Kyoto University",
+   "country": "Japan",
+   "code": "SG2025",
+   "title": "[SG2025-8] 学習物理学：機械学習と理学の融合 - 京都大学理学研究科",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": null,
+   "url": "https://www.sci.kyoto-u.ac.jp/ja/academics/programs/macs/sg/sg2025/sg2025-8",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Massachusetts Institute of Technology",
+   "country": "United States",
+   "code": "15.097",
+   "title": "Syllabus | Prediction: Machine Learning and Statistics | Sloan School of Management | MIT OpenCourseWare",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Spring 2012",
+   "year": 2012,
+   "url": "https://ocw.mit.edu/courses/15-097-prediction-machine-learning-and-statistics-spring-2012/pages/syllabus/",
+   "books": [
+    {
+     "title": "Artificial Intelligence: A Modern Approach",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 2,
+   "materials": {
+    "lecture_notes": 1,
+    "video": 1
+   }
+  },
+  {
+   "university": "Massachusetts Institute of Technology",
+   "country": "United States",
+   "code": "6.390",
+   "title": "Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Fall 2023",
+   "year": 2023,
+   "url": "https://introml.mit.edu/fall23/homework/hw01",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 1,
+    "homework": 3
+   }
+  },
+  {
+   "university": "Massachusetts Institute of Technology",
+   "country": "United States",
+   "code": "6.790",
+   "title": "Machine Learning",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": null,
+   "year": null,
+   "url": "https://gradml.mit.edu/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Massachusetts Institute of Technology",
+   "country": "United States",
+   "code": "6.867",
+   "title": "Assignments | Machine Learning - MIT OpenCourseWare",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Fall 2006",
+   "year": 2006,
+   "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/pages/assignments/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework": 1,
+    "lecture_notes": 1,
+    "exam": 1
+   }
+  },
+  {
+   "university": "McGill University",
+   "country": "Canada",
+   "code": "COMP 551",
+   "title": "COMP 551 –Applied Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": null,
+   "url": "https://www.cs.mcgill.ca/~jpineau/comp551/Lectures/01Intro-share.pdf",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Understanding Machine Learning: From Theory to Algorithms",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 2,
+   "materials": {}
+  },
+  {
+   "university": "McGill University",
+   "country": "Canada",
+   "code": "COMP 652",
+   "title": "COMP 652: Machine Learning - Fall 2008 - Syllabus",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Fall 2008",
+   "year": 2008,
+   "url": "https://www.cs.mcgill.ca/~perkins/COMP652_Fall2008/COMP652_Syllabus.pdf",
+   "books": [
+    {
+     "title": "Introduction to Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Neural Networks for Pattern Recognition",
+     "role": "mentioned"
+    },
+    {
+     "title": "Pattern Classification",
+     "role": "mentioned"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Reinforcement Learning: An Introduction",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 1,
+   "materials": {}
+  },
+  {
+   "university": "McGill University",
+   "country": "Canada",
+   "code": "COMP 652",
+   "title": "COMP 652: Machine Learning - Fall 2008 - Syllabus",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Winter 2017",
+   "year": 2017,
+   "url": "https://www.cs.mcgill.ca/~dprecup/courses/ML/syllabus.html",
+   "books": [
+    {
+     "title": "Information Theory, Inference, and Learning Algorithms",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Classification",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Reinforcement Learning: An Introduction",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 6,
+   "materials": {
+    "exam": 1,
+    "lecture_notes": 1,
+    "exam_solution": 1,
+    "video": 1,
+    "homework": 2,
+    "slides": 12
+   }
+  },
+  {
+   "university": "McGill University",
+   "country": "Canada",
+   "code": "EST 2001",
+   "title": "Syllabus for Machine Learning (308-766)",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Winter 2001",
+   "year": 2001,
+   "url": "https://www.cs.mcgill.ca/~dprecup//courses/Winter2001/766/syllabus.html",
+   "books": [
+    {
+     "title": "Machine Learning",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Norwegian University of Science and Technology",
+   "country": "Norway",
+   "code": "IDATG2208",
+   "title": "Emne - Introduksjon til maskinlæring - IDATG2208 - NTNU",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "https://www.ntnu.no/studier/emner/IDATG2208",
+   "books": [
+    {
+     "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1
+   }
+  },
+  {
+   "university": "Norwegian University of Science and Technology",
+   "country": "Norway",
+   "code": "IDIG4220",
+   "title": "Emne - Moderne Maskinlæring - IDIG4220 - NTNU",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": null,
+   "year": 2026,
+   "url": "https://www.ntnu.no/studier/emner/IDIG4220/2026",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1
+   }
+  },
+  {
+   "university": "Norwegian University of Science and Technology",
+   "country": "Norway",
+   "code": "TDT4172",
+   "title": "Emne - Introduksjon til maskinlæring - TDT4172 - NTNU",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "https://www.ntnu.no/studier/emner/TDT4172",
+   "books": [
+    {
+     "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1
+   }
+  },
+  {
+   "university": "Norwegian University of Science and Technology",
+   "country": "Norway",
+   "code": "TDT4173",
+   "title": "Emne - Moderne maskinlæring i praksis - TDT4173 - NTNU",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "https://www.ntnu.no/studier/emner/TDT4173",
+   "books": [
+    {
+     "title": "Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1
+   }
+  },
+  {
+   "university": "Norwegian University of Science and Technology",
+   "country": "Norway",
+   "code": "TKP4198",
+   "title": "Emne - Datavitenskap og maskinlæring i naturvitenskap - TKP4198 - NTNU",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "https://www.ntnu.no/studier/emner/TKP4198",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1
+   }
+  },
+  {
+   "university": "Norwegian University of Science and Technology",
+   "country": "Norway",
+   "code": "TMM4128",
+   "title": "Emne - Maskinlæring for ingeniører - TMM4128 - NTNU",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "https://www.ntnu.no/studier/emner/TMM4128",
+   "books": [
+    {
+     "title": "Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1
+   }
+  },
+  {
+   "university": "Peking University",
+   "country": "China",
+   "code": "86-755",
+   "title": "Machine Learning for Finance",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": null,
+   "year": 2017,
+   "url": "https://english.phbs.pku.edu.cn/uploadfile/2017/0215/20170215025701648.pdf",
+   "books": [
+    {
+     "title": "Machine Learning with PyTorch and Scikit-Learn",
+     "role": "textbook"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Peking University",
+   "country": "China",
+   "code": null,
+   "title": "00103335: Deep Learning and Reinforcement Learning",
+   "topic": "ml-related",
+   "level": "unknown",
+   "term": "Fall 2025",
+   "year": 2025,
+   "url": "https://math.pku.edu.cn/teachers/linw/3335f25/syl.pdf",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Foundations of Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Learning Theory from First Principles",
+     "role": "recommended"
+    },
+    {
+     "title": "Reinforcement Learning: An Introduction",
+     "role": "mentioned"
+    },
+    {
+     "title": "Understanding Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Understanding Machine Learning: From Theory to Algorithms",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Peking University",
+   "country": "China",
+   "code": null,
+   "title": "Machine Learning in Asset Pricing",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "https://english.phbs.pku.edu.cn/SyllabusMLinAssetPricing2025.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Peking University",
+   "country": "China",
+   "code": null,
+   "title": "Wei Lin - 00102892: Statistical Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": null,
+   "url": "https://math.pku.edu.cn/teachers/linw/2892f18.html",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "机器学习 (Machine Learning, 'watermelon book')",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Peking University",
+   "country": "China",
+   "code": null,
+   "title": "非参数方法和机器学习在经济学中的应用课程详细信息",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": null,
+   "year": null,
+   "url": "https://elective.pku.edu.cn/elective2008/edu/pku/stu/elective/controller/courseDetail/getCourseDetail.do?kclx=BK&course_seq_no=BZ2526321130026_17625",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Peking University",
+   "country": "China",
+   "code": null,
+   "title": "机器学习基础 - 北京大学数学学院",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": null,
+   "url": "https://math.pku.edu.cn/bks/sykc/148690.htm",
+   "books": [
+    {
+     "title": "Foundations of Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Understanding Machine Learning: From Theory to Algorithms",
+     "role": "recommended"
+    },
+    {
+     "title": "机器学习 (Machine Learning, 'watermelon book')",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Princeton University",
+   "country": "United States",
+   "code": "COS 324",
+   "title": "COS 324 – Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Spring 2019",
+   "year": 2019,
+   "url": "https://www.cs.princeton.edu/courses/archive/spring19/cos324/",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Information Theory, Inference, and Learning Algorithms",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 5,
+   "materials": {
+    "slides": 7,
+    "exam_solution": 3,
+    "lecture_notes": 2,
+    "video": 15,
+    "homework_solution": 5,
+    "homework": 14
+   }
+  },
+  {
+   "university": "Princeton University",
+   "country": "United States",
+   "code": "COS 324",
+   "title": "COS 324 – Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "fall 18",
+   "year": 2018,
+   "url": "https://www.cs.princeton.edu/courses/archive/fall18/cos324/files/syllabus.pdf",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Information Theory, Inference, and Learning Algorithms",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Reinforcement Learning: An Introduction",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 2,
+   "materials": {}
+  },
+  {
+   "university": "Princeton University",
+   "country": "United States",
+   "code": "COS 511",
+   "title": "Theoretical Machine Learning - COS 511",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "https://www.cs.princeton.edu/~rlivni/cos511/hw/hw2.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Princeton University",
+   "country": "United States",
+   "code": "ORF 570",
+   "title": "ORF 570 Deep Learning and Generative AI - Jianqing Fan",
+   "topic": "ml-related",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "https://fan.princeton.edu/teaching/orf-570",
+   "books": [],
+   "unmatched_citations": 3,
+   "materials": {
+    "lecture_notes": 1
+   }
+  },
+  {
+   "university": "Seoul National University",
+   "country": "Korea, Republic of",
+   "code": "43-201",
+   "title": "Machine Learning & Deep Learning I (Spring 2024)",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Spring 2024",
+   "year": 2024,
+   "url": "https://viplab.snu.ac.kr/viplab/courses/mldl1_2024_1/index.html",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1
+   }
+  },
+  {
+   "university": "Seoul National University",
+   "country": "Korea, Republic of",
+   "code": null,
+   "title": "Machine Learning for Visual Understanding (Fall 2021)",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Fall 2021",
+   "year": 2021,
+   "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2021_2/index.html",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 7,
+    "homework_solution": 1
+   }
+  },
+  {
+   "university": "Seoul National University",
+   "country": "Korea, Republic of",
+   "code": null,
+   "title": "Machine Learning & Deep Learning I (Spring 2022)",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Spring 2022",
+   "year": 2022,
+   "url": "https://viplab.snu.ac.kr/viplab/courses/mldl1_2022_1/index.html",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1
+   }
+  },
+  {
+   "university": "Seoul National University",
+   "country": "Korea, Republic of",
+   "code": null,
+   "title": "Machine Learning for Visual Understanding (Fall 2021)",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Spring 2023",
+   "year": 2023,
+   "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2023_1/index.html",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 6,
+    "homework_solution": 1
+   }
+  },
+  {
+   "university": "Seoul National University",
+   "country": "Korea, Republic of",
+   "code": null,
+   "title": "Machine Learning for Visual Understanding (Fall 2021)",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Spring 2025",
+   "year": 2025,
+   "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2025_1/index.html",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework_solution": 1,
+    "video": 5
+   }
+  },
+  {
+   "university": "Seoul National University",
+   "country": "Korea, Republic of",
+   "code": null,
+   "title": "Machine Learning for Visual Understanding (Fall 2021)",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Spring 2026",
+   "year": 2026,
+   "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2026_1/index.html",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 1,
+   "materials": {
+    "homework_solution": 1,
+    "video": 4
+   }
+  },
+  {
+   "university": "Stanford University",
+   "country": "United States",
+   "code": "CS 229",
+   "title": "CS 229: Machine Learning (Course Information)",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Summer 2026",
+   "year": 2026,
+   "url": "https://cs229.stanford.edu/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "slides": 22,
+    "lecture_notes": 3,
+    "exam": 1
+   }
+  },
+  {
+   "university": "Stanford University",
+   "country": "United States",
+   "code": "CS 229",
+   "title": "CS 229: Machine Learning (Course Information)",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "fall 2014",
+   "year": 2014,
+   "url": "https://cs229.stanford.edu/info.html-bold",
+   "books": [
+    {
+     "title": "Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Classification",
+     "role": "recommended"
+    },
+    {
+     "title": "Reinforcement Learning: An Introduction",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Stanford University",
+   "country": "United States",
+   "code": "CS 229",
+   "title": "CS 229: Machine Learning (Course Information)",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "fall 2015",
+   "year": 2015,
+   "url": "https://cs229.stanford.edu/info.html-2015",
+   "books": [
+    {
+     "title": "Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Classification",
+     "role": "recommended"
+    },
+    {
+     "title": "Reinforcement Learning: An Introduction",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework": 3
+   }
+  },
+  {
+   "university": "Stanford University",
+   "country": "United States",
+   "code": "CS 229",
+   "title": "CS 229: Machine Learning (Course Information)",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "fall 2017",
+   "year": 2017,
+   "url": "https://cs229.stanford.edu/Handout2017.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Stanford University",
+   "country": "United States",
+   "code": "EE104",
+   "title": "EE104/CME107: Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Spring 2025",
+   "year": 2025,
+   "url": "https://ee104.stanford.edu/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1,
+    "exam": 1,
+    "homework": 1
+   }
+  },
+  {
+   "university": "Stanford University",
+   "country": "United States",
+   "code": "EE104",
+   "title": "EE104/CME107: Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": null,
+   "url": "https://ee104.stanford.edu/homework.html",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1,
+    "homework": 10,
+    "exam": 1
+   }
+  },
+  {
+   "university": "Technische Universität Darmstadt",
+   "country": "Germany",
+   "code": "03-123",
+   "title": "Physics-aware Machine Learning",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Summer 2026",
+   "year": 2026,
+   "url": "https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/vorlesung_physikbewusstes_ml/paml_1.en.jsp",
+   "books": [],
+   "unmatched_citations": 1,
+   "materials": {}
+  },
+  {
+   "university": "Technische Universität Darmstadt",
+   "country": "Germany",
+   "code": null,
+   "title": "18-fi-2060-vl Maschinelles Lernen für Mechatronische und Dynamische ...",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Winter 2026",
+   "year": 2026,
+   "url": "https://www.tucan.tu-darmstadt.de/scripts/mgrqispi.dll?APPNAME=CampusNet&PRGNAME=COURSEDETAILS&ARGUMENTS=-N000000000000001,-N000334,-N0,-N387755374543257,-N387755374550258,-N0,-N0,-N0",
+   "books": [
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 2,
+   "materials": {
+    "lecture_notes": 1
+   }
+  },
+  {
+   "university": "Technische Universität Darmstadt",
+   "country": "Germany",
+   "code": null,
+   "title": "04-10-0512-vu Optimierungsmethoden für maschinelles Lernen",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Winter 2026",
+   "year": 2026,
+   "url": "https://www.tucan.tu-darmstadt.de/scripts/mgrqispi.dll?APPNAME=CampusNet&PRGNAME=COURSEDETAILS&ARGUMENTS=-N000000000000001,-N000655,-N0,-N375502935248105,-N375502935285106,-N0,-N0,-N0",
+   "books": [
+    {
+     "title": "Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 2,
+   "materials": {
+    "lecture_notes": 1
+   }
+  },
+  {
+   "university": "Technische Universität Darmstadt",
+   "country": "Germany",
+   "code": null,
+   "title": "Modulhandbuch M. Sc. Artificial Intelligence and Machine Learning 1",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": null,
+   "year": null,
+   "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/modulhandbuch_m_sc_artificial_intelligence_and_machine_learning_po_2023.de.pdf",
+   "books": [
+    {
+     "title": "Bayesian Reasoning and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+     "role": "recommended"
+    },
+    {
+     "title": "Information Theory, Inference, and Learning Algorithms",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Classification",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Probabilistic Graphical Models: Principles and Techniques",
+     "role": "recommended"
+    },
+    {
+     "title": "Reinforcement Learning: An Introduction",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 8,
+   "materials": {}
+  },
+  {
+   "university": "Technische Universität Darmstadt",
+   "country": "Germany",
+   "code": null,
+   "title": "Artificial Intelligence and Machine Learning – TU Darmstadt",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": null,
+   "url": "https://www.tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/studiengang_334592.en.jsp",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 2,
+    "exam": 1
+   }
+  },
+  {
+   "university": "Technische Universität Darmstadt",
+   "country": "Germany",
+   "code": null,
+   "title": "[PDF] Master study program Artificial Intelligence and Machine Learning ...",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/Studien-_und_Pruefungsplan_M_Sc_Artificial_Intelligence_and_Machine_Learning_PO_2023.en.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Technische Universität München",
+   "country": "Germany",
+   "code": "IN0001",
+   "title": "Ausgewaehlte Themen aus dem Bereich Sicherheit und Datenschutz: Untertitel: 'IT-Sicherheit und Machine-Learning'.",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "SS 2022",
+   "year": 2022,
+   "url": "https://www.sec.in.tum.de/i20/teaching/ss2022/ausgewaehlte-themen-aus-dem-bereich-it-sicherheit",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "Technische Universität München",
+   "country": "Germany",
+   "code": "IN0025",
+   "title": "Business Analytics and Machine Learning WS 25/26 - Chair of Decision Science & Systems",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "WS 25/26",
+   "year": 2025,
+   "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2025-26/business-analytics-and-machine-learning-ws-25-26/",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+     "role": "recommended"
+    },
+    {
+     "title": "Reinforcement Learning: An Introduction",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 1,
+   "materials": {
+    "lecture_notes": 1
+   }
+  },
+  {
+   "university": "Technische Universität München",
+   "country": "Germany",
+   "code": "IN2028",
+   "title": "Business Analytics and Machine Learning WS 23/24 - Chair of Decision Science & Systems",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "WS 22/23",
+   "year": 2022,
+   "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2022-23/business-analytics-and-machine-learning-ws-22-23/",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 1,
+   "materials": {
+    "lecture_notes": 1
+   }
+  },
+  {
+   "university": "Technische Universität München",
+   "country": "Germany",
+   "code": "IN2028",
+   "title": "Business Analytics and Machine Learning WS 23/24 - Chair of Decision Science & Systems",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "WS 23/24",
+   "year": 2023,
+   "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2023-24/business-analytics-and-machine-learning-ws-23-24/",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 1,
+   "materials": {
+    "lecture_notes": 1
+   }
+  },
+  {
+   "university": "The Chinese University of Hong Kong",
+   "country": "Hong Kong",
+   "code": "CSCI3320",
+   "title": "CSCI3320 (Fundamentals of Machine Learning) - CUHK CSE",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": null,
+   "year": null,
+   "url": "http://www.cse.cuhk.edu.hk/~cslui/csci3320.html",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Bayesian Reasoning and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Learning From Data",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Probabilistic Graphical Models: Principles and Techniques",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 3
+   }
+  },
+  {
+   "university": "The Chinese University of Hong Kong",
+   "country": "Hong Kong",
+   "code": "ELEG5491",
+   "title": "ELEG5491: Introduction to Deep Learning",
+   "topic": "ml-related",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "http://www.ee.cuhk.edu.hk/~xgwang/dl/syllabus.html",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 3,
+    "slides": 1
+   }
+  },
+  {
+   "university": "The Hong Kong University of Science and Technology",
+   "country": "Hong Kong",
+   "code": "COMP 4211",
+   "title": "COMP 4211 - Spring 2015",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Spring 2015",
+   "year": 2015,
+   "url": "https://home.cse.ust.hk/~dekai/4211/",
+   "books": [
+    {
+     "title": "Artificial Intelligence: A Modern Approach",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 4,
+   "materials": {
+    "slides": 4
+   }
+  },
+  {
+   "university": "The University of Hong Kong",
+   "country": "Hong Kong",
+   "code": "COMP3314",
+   "title": "COMP3314 Introduction to Machine Learning - Course Offered",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": 2025,
+   "url": "https://www.cs.hku.hk/index.php/programmes/course-offered?infile=2025/comp3314.html",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 1,
+    "video": 1
+   }
+  },
+  {
+   "university": "University of British Columbia",
+   "country": "Canada",
+   "code": "CPSC 340",
+   "title": "CPSC 340 - Machine Learning and Data Mining",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Fall 2022",
+   "year": 2022,
+   "url": "https://www.cs.ubc.ca/~schmidtm/Courses/340-F22/",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Artificial Intelligence: A Modern Approach",
+     "role": "mentioned"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "mentioned"
+    },
+    {
+     "title": "Mathematics for Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 17,
+    "lecture_notes": 5,
+    "homework": 6,
+    "slides": 1
+   }
+  },
+  {
+   "university": "University of British Columbia",
+   "country": "Canada",
+   "code": "CPSC 340",
+   "title": "CPSC 340 - Machine Learning and Data Mining",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": null,
+   "year": 2012,
+   "url": "https://www.cs.ubc.ca/~nando/340-2012/assignments.php",
+   "books": [
+    {
+     "title": "Artificial Intelligence: A Modern Approach",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework": 1,
+    "video": 1,
+    "slides": 2
+   }
+  },
+  {
+   "university": "University of British Columbia",
+   "country": "Canada",
+   "code": "CPSC 440",
+   "title": "CPSC 440 and 540 - Advanced Machine Learning (January-April, 2022)",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": 2022,
+   "url": "https://www.cs.ubc.ca/~schmidtm/Courses/440-W22/",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "All of Statistics",
+     "role": "textbook"
+    },
+    {
+     "title": "Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "mentioned"
+    },
+    {
+     "title": "Mathematics for Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework": 4,
+    "video": 3,
+    "lecture_notes": 1
+   }
+  },
+  {
+   "university": "University of British Columbia",
+   "country": "Canada",
+   "code": "CPSC 540",
+   "title": "CPSC 540: Machine Learning",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Winter 2017",
+   "year": 2017,
+   "url": "https://www.cs.ubc.ca/~schmidtm/Courses/540-W17/",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Convex Optimization",
+     "role": "mentioned"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework": 5,
+    "lecture_notes": 2,
+    "video": 4
+   }
+  },
+  {
+   "university": "University of British Columbia",
+   "country": "Canada",
+   "code": "CPSC 540",
+   "title": "CPSC 540: Machine Learning",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Winter 2020",
+   "year": 2020,
+   "url": "https://www.cs.ubc.ca/~schmidtm/Courses/540-W20/syllabus.pdf",
+   "books": [
+    {
+     "title": "All of Statistics",
+     "role": "textbook"
+    },
+    {
+     "title": "Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Mathematics for Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of British Columbia",
+   "country": "Canada",
+   "code": "CS340",
+   "title": "CS340 (Machine learning) Fall 2007",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Fall 2007",
+   "year": 2007,
+   "url": "https://www.cs.ubc.ca/~murphyk/Teaching/CS340-Fall07/index.html",
+   "books": [
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "slides": 4,
+    "exam": 2,
+    "homework": 6
+   }
+  },
+  {
+   "university": "University of California, Berkeley",
+   "country": "United States",
+   "code": "CS 189",
+   "title": "CS 189/289A:  Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Spring 2016",
+   "year": 2016,
+   "url": "https://tbp.studentorg.berkeley.edu/syllabi/313/download/",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 3,
+   "materials": {}
+  },
+  {
+   "university": "University of California, Berkeley",
+   "country": "United States",
+   "code": "CS 189",
+   "title": "CS 189/289A:  Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Spring 2017",
+   "year": 2017,
+   "url": "https://people.eecs.berkeley.edu/~jrs/189s17/",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Neural Networks and Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 3,
+   "materials": {
+    "slides": 2,
+    "video": 26,
+    "homework": 7,
+    "lecture_notes": 28
+   }
+  },
+  {
+   "university": "University of California, Berkeley",
+   "country": "United States",
+   "code": "CS 189",
+   "title": "CS 189/289A:  Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Spring 2019",
+   "year": 2019,
+   "url": "https://people.eecs.berkeley.edu/~jrs/189s19/",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Neural Networks and Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 3,
+   "materials": {
+    "exam": 1,
+    "homework": 13,
+    "video": 29,
+    "slides": 1,
+    "lecture_notes": 27
+   }
+  },
+  {
+   "university": "University of California, Berkeley",
+   "country": "United States",
+   "code": "CS 189",
+   "title": "CS 189/289A:  Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Spring 2021",
+   "year": 2021,
+   "url": "https://people.eecs.berkeley.edu/~jrs/189s21/",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Neural Networks and Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 3,
+   "materials": {
+    "exam": 5,
+    "lecture_notes": 27,
+    "homework": 11,
+    "video": 6,
+    "slides": 1
+   }
+  },
+  {
+   "university": "University of California, Berkeley",
+   "country": "United States",
+   "code": "CS 189",
+   "title": "CS 189/289A:  Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Spring 2025",
+   "year": 2025,
+   "url": "https://people.eecs.berkeley.edu/~jrs/189/",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Deep Learning: Foundations and Concepts",
+     "role": "mentioned"
+    },
+    {
+     "title": "Neural Networks and Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 4,
+   "materials": {
+    "lecture_notes": 27,
+    "homework": 12,
+    "exam": 5,
+    "slides": 1,
+    "video": 32
+   }
+  },
+  {
+   "university": "University of California, Los Angeles",
+   "country": "United States",
+   "code": "CM 226",
+   "title": "CM 226: Machine Learning in Bioinformatics (Fall 2019)",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Fall 2019",
+   "year": 2019,
+   "url": "https://web.cs.ucla.edu/~sriram/courses/cm226.fall-2019/admin/syllabus.pdf",
+   "books": [
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of California, Los Angeles",
+   "country": "United States",
+   "code": "CM146",
+   "title": "CM146: Introduction to Machine Learning (Winter 2019)",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Winter 2019",
+   "year": 2019,
+   "url": "http://web.cs.ucla.edu/~sriram/courses/cm146.winter-2019/html/index.html",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "textbook"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 4,
+    "slides": 1
+   }
+  },
+  {
+   "university": "University of California, Los Angeles",
+   "country": "United States",
+   "code": "CS 260C",
+   "title": "Course   Proposal:   CS   260C   Deep   Learning",
+   "topic": "ml-related",
+   "level": "undergrad",
+   "term": "Winter 2019",
+   "year": 2019,
+   "url": "https://fec.seas.ucla.edu/wp-content/uploads/fec/Syllabus_CS260c_proposal.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of California, Los Angeles",
+   "country": "United States",
+   "code": "CS188",
+   "title": "CS188: Introduction to Machine Learning (Winter 2017)",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Winter 2017",
+   "year": 2017,
+   "url": "http://web.cs.ucla.edu/~sriram/courses/cs188.winter-2017/html/index.html",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning: The Art and Science of Algorithms that Make Sense of Data",
+     "role": "textbook"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 4
+   }
+  },
+  {
+   "university": "University of California, Los Angeles",
+   "country": "United States",
+   "code": "ENGR 188",
+   "title": "after taking this course, should be seen as complementary to deep learning. In fact,",
+   "topic": "ml-related",
+   "level": "mixed",
+   "term": "SPRING 2023",
+   "year": 2023,
+   "url": "https://fec.seas.ucla.edu/wp-content/uploads/fec/ECE149_Syllabus_newcourse.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of California, San Diego",
+   "country": "United States",
+   "code": "CSE 151",
+   "title": "CSE 151: Machine Learning",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": null,
+   "year": null,
+   "url": "https://cseweb.ucsd.edu/~dasgupta/151/syllabus.html",
+   "books": [
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "mentioned"
+    },
+    {
+     "title": "Pattern Classification",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "homework": 6,
+    "slides": 1
+   }
+  },
+  {
+   "university": "University of California, San Diego",
+   "country": "United States",
+   "code": "CSE 291",
+   "title": "CSE 291-D Latent Variable Models",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Spring 2017",
+   "year": 2017,
+   "url": "https://cseweb.ucsd.edu/classes/sp17/cse291-d/",
+   "books": [
+    {
+     "title": "Information Theory, Inference, and Learning Algorithms",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "textbook"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 3,
+   "materials": {
+    "lecture_notes": 1
+   }
+  },
+  {
+   "university": "University of California, San Diego",
+   "country": "United States",
+   "code": "DSC 240",
+   "title": "Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Winter 2025",
+   "year": 2025,
+   "url": "https://cseweb.ucsd.edu/~yuxiangw/classes/DSC240-2025Winter/Lectures/syllabus.pdf",
+   "books": [
+    {
+     "title": "Dive into Deep Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Illinois Urbana-Champaign",
+   "country": "United States",
+   "code": "CS 441",
+   "title": "CS 441 - Applied Machine Learning",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Fall 2025",
+   "year": 2025,
+   "url": "https://courses.grainger.illinois.edu/cs441/fa2025/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "exam": 4,
+    "video": 3,
+    "slides": 26,
+    "lecture_notes": 1,
+    "homework": 6
+   }
+  },
+  {
+   "university": "University of Illinois Urbana-Champaign",
+   "country": "United States",
+   "code": "CS 441",
+   "title": "CS 441 - Applied Machine Learning",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": null,
+   "year": null,
+   "url": "https://courses.grainger.illinois.edu/CS441/sp2022/syllabus.html",
+   "books": [
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Illinois Urbana-Champaign",
+   "country": "United States",
+   "code": "CS 446",
+   "title": "CS446/ECE449: Machine Learning (Fall 2026)",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Fall 2026",
+   "year": 2026,
+   "url": "https://courses.grainger.illinois.edu/cs446/fa2026/",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Deep Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "exam": 1,
+    "homework": 1,
+    "slides": 28
+   }
+  },
+  {
+   "university": "University of Illinois Urbana-Champaign",
+   "country": "United States",
+   "code": "CS 598",
+   "title": "Machine Learning Theory 2018 [ CS 598 Tel ]",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": null,
+   "year": 2018,
+   "url": "https://mjt.cs.illinois.edu/courses/mlt-f18/",
+   "books": [
+    {
+     "title": "Understanding Machine Learning: From Theory to Algorithms",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 4,
+   "materials": {
+    "homework": 10,
+    "slides": 19
+   }
+  },
+  {
+   "university": "University of Illinois Urbana-Champaign",
+   "country": "United States",
+   "code": "ECE 398",
+   "title": "ECE 398 AS: Programming Methods for Machine Learning (Fall 2022)",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Fall 2022",
+   "year": 2022,
+   "url": "https://courses.grainger.illinois.edu/ECE398AS/fa2022/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Illinois Urbana-Champaign",
+   "country": "United States",
+   "code": "IS327",
+   "title": "IS327: Concepts of Machine Learning Spring 2025",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Spring 2025",
+   "year": 2025,
+   "url": "https://vision.ischool.illinois.edu/IS327/",
+   "books": [
+    {
+     "title": "Deep Learning with Python",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning with PyTorch and Scikit-Learn",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Michigan - Ann Arbor",
+   "country": "United States",
+   "code": "EECS 453",
+   "title": "EECS 453: Principles of Machine Learning, Fall 2024 - Qing Qu",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Fall 2024",
+   "year": 2024,
+   "url": "https://qingqu.engin.umich.edu/eecs-453-principles-of-machine-learning-fall-2023/",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Foundations of Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Mathematics for Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Michigan - Ann Arbor",
+   "country": "United States",
+   "code": "EECS 453",
+   "title": "EECS 453: Principles of Machine Learning, Fall 2024 - Qing Qu",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": null,
+   "url": "https://ece.engin.umich.edu/academics/course-information/course-descriptions/eecs-453/",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Foundations of Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Mathematics for Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 3
+   }
+  },
+  {
+   "university": "University of Michigan - Ann Arbor",
+   "country": "United States",
+   "code": "EECS 498",
+   "title": "EECS 498/598: Applied Machine Learning for Affective Computing",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Winter 2020",
+   "year": 2020,
+   "url": "https://cse.engin.umich.edu/wp-content/uploads/2019/11/EECS_498_598_Affective_Computing.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Michigan - Ann Arbor",
+   "country": "United States",
+   "code": "EECS 553",
+   "title": "## EECS 553 Lecture 01 Machine Learning (ECE) [class version]",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": null,
+   "url": "https://web.eecs.umich.edu/~fessler/course/553/l/l01.pdf",
+   "books": [
+    {
+     "title": "Pattern Classification",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Probabilistic Machine Learning: Advanced Topics",
+     "role": "mentioned"
+    },
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Michigan - Ann Arbor",
+   "country": "United States",
+   "code": "SIADS 643",
+   "title": "Course Syllabus for SIADS 643: Machine Learning Pipelines",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": null,
+   "year": null,
+   "url": "https://www.si.umich.edu/sites/default/files/SIADS_643%20%282%29.pdf",
+   "books": [],
+   "unmatched_citations": 1,
+   "materials": {}
+  },
+  {
+   "university": "University of Oslo",
+   "country": "Norway",
+   "code": "IN1050",
+   "title": "Oppbygging og gjennomføring – Informatikk: maskinlæring og kunstig intelligens (bachelor) – Universitetet i Oslo",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": null,
+   "year": null,
+   "url": "https://www.uio.no/studier/program/maskinlering-kunstig-intelligens/oppbygging/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Oslo",
+   "country": "Norway",
+   "code": "IN1160",
+   "title": "IN1160 – Introduksjon til maskinlæring – Universitetet i Oslo",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": null,
+   "year": null,
+   "url": "https://www.uio.no/studier/emner/matnat/ifi/IN1160/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Oslo",
+   "country": "Norway",
+   "code": "IN3050",
+   "title": "and Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Spring 2025",
+   "year": 2025,
+   "url": "https://www.uio.no/studier/emner/matnat/ifi/IN3050/v25/slides/intro-2025-for-pdf.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Oslo",
+   "country": "Norway",
+   "code": "IN3050",
+   "title": "and Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": 2025,
+   "url": "https://www.uio.no/studier/emner/matnat/ifi/IN3050/v25/slides/search-2025-for-pdf.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Tokyo",
+   "country": "Japan",
+   "code": "AI 2026",
+   "title": "深層学習 Deep Learning 基礎講座2026 ｜Autumn - 東京大学松尾・岩澤研究室（松尾研）- Matsuo Lab",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": null,
+   "url": "https://weblab.t.u-tokyo.ac.jp/lecture/course-list/deep-learning/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Tokyo",
+   "country": "Japan",
+   "code": null,
+   "title": "機械学習・数理情報学・データマイニング・情報論的学習理論",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": null,
+   "year": null,
+   "url": "https://ibis.t.u-tokyo.ac.jp/yamanishiken/ja/lecture/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Tokyo",
+   "country": "Japan",
+   "code": null,
+   "title": "機械学習の数理 - 工学部 - 東京大学授業カタログ",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": null,
+   "year": 2025,
+   "url": "https://catalog.he.u-tokyo.ac.jp/detail?code=FEN-MP4d30L1&year=2025",
+   "books": [],
+   "unmatched_citations": 1,
+   "materials": {}
+  },
+  {
+   "university": "University of Tokyo",
+   "country": "Japan",
+   "code": null,
+   "title": "機械学習の数理 - 工学部 - 東京大学授業カタログ",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": null,
+   "year": 2022,
+   "url": "https://catalog.he.u-tokyo.ac.jp/detail?code=FEN-MP4d30L1&year=2022",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Toronto",
+   "country": "Canada",
+   "code": "CSC 311",
+   "title": "CSC 311: Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": null,
+   "year": null,
+   "url": "https://www.cs.utoronto.ca/~bonner/courses/2021f/csc311/lectures/lec01_intro_knn.pdf",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Deep Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Information Theory, Inference, and Learning Algorithms",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Reinforcement Learning: An Introduction",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Understanding Machine Learning: From Theory to Algorithms",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 2,
+   "materials": {}
+  },
+  {
+   "university": "University of Toronto",
+   "country": "Canada",
+   "code": "CSC 411",
+   "title": "CSC 411: Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Winter 2016",
+   "year": 2016,
+   "url": "https://www.cs.utoronto.ca/~fidler/teaching/2015/CSC411.html",
+   "books": [
+    {
+     "title": "Introduction to Machine Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1,
+    "slides": 19,
+    "homework": 3
+   }
+  },
+  {
+   "university": "University of Toronto",
+   "country": "Canada",
+   "code": "ECO2425",
+   "title": "Applied Causal Machine Learning",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": null,
+   "year": null,
+   "url": "https://www.economics.utoronto.ca/index.php/index/teaching/downloadCourseOutline/7523/997904279",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Toronto",
+   "country": "Canada",
+   "code": "INF 2179",
+   "title": "Machine Learning with Applications in Python",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Summer 2020",
+   "year": 2020,
+   "url": "https://ischool.utoronto.ca/wp-content/uploads/2024/08/INF2179_Syllabus_ML_Python_July12.pdf",
+   "books": [],
+   "unmatched_citations": 1,
+   "materials": {}
+  },
+  {
+   "university": "University of Toronto",
+   "country": "Canada",
+   "code": "INF 2179",
+   "title": "Machine Learning with Applications in Python",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Summer 2022",
+   "year": 2022,
+   "url": "https://ischool.utoronto.ca/wp-content/uploads/2024/08/INF2179_Summer_2022_Syllabus.pdf",
+   "books": [],
+   "unmatched_citations": 1,
+   "materials": {}
+  },
+  {
+   "university": "University of Toronto",
+   "country": "Canada",
+   "code": "STA 314",
+   "title": "STA 314: Statistical Methods for Machine Learning I",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Fall 2024",
+   "year": 2024,
+   "url": "https://courses.utstat.utoronto.ca/sta314_f24/lectures/syllabus.pdf",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "recommended"
+    },
+    {
+     "title": "Pattern Recognition and Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Washington",
+   "country": "United States",
+   "code": "CSE 599",
+   "title": "CSE 599, Winter 2022 Foundations of Fairness in Machine Learning",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Winter 2022",
+   "year": 2022,
+   "url": "https://courses.cs.washington.edu/courses/cse599m/22wi/",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 1,
+    "homework": 1
+   }
+  },
+  {
+   "university": "University of Washington",
+   "country": "United States",
+   "code": "CSS 490",
+   "title": "CSS 490 / 590 - Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Winter 2012",
+   "year": 2012,
+   "url": "http://courses.washington.edu/css490/2012.Winter/CSS%20490-590%20-%20Introduction%20to%20Machine%20Learning.html",
+   "books": [
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 13,
+    "homework_solution": 5,
+    "slides": 43,
+    "homework": 8
+   }
+  },
+  {
+   "university": "University of Washington",
+   "country": "United States",
+   "code": "CSS 581",
+   "title": "CSS 581 - Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Winter 2014",
+   "year": 2014,
+   "url": "http://courses.washington.edu/css581/CSS%20581%20-%20Introduction%20to%20Machine%20Learning.html",
+   "books": [
+    {
+     "title": "An Introduction to Statistical Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "mentioned"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "lecture_notes": 16,
+    "homework": 8,
+    "slides": 27
+   }
+  },
+  {
+   "university": "University of Washington",
+   "country": "United States",
+   "code": "STAT 416",
+   "title": "CSE/STAT 416, Summer 2020: Homework 5: Machine Learning Practice with Kaggle",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Summer 2020",
+   "year": 2020,
+   "url": "https://courses.cs.washington.edu/courses/cse416/20su/hw5/overview.html",
+   "books": [
+    {
+     "title": "A Course in Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Foundations of Machine Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "exam": 2,
+    "homework": 4
+   }
+  },
+  {
+   "university": "University of Waterloo",
+   "country": "Canada",
+   "code": "CS 485",
+   "title": "CS 485/685: Foundations of Machine Learning (Fall 2021)",
+   "topic": "ml-core",
+   "level": "undergrad",
+   "term": "Fall 2021",
+   "year": 2021,
+   "url": "https://student.cs.uwaterloo.ca/~cs485/",
+   "books": [
+    {
+     "title": "Foundations of Machine Learning",
+     "role": "mentioned"
+    },
+    {
+     "title": "Understanding Machine Learning: From Theory to Algorithms",
+     "role": "mentioned"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {
+    "video": 1
+   }
+  },
+  {
+   "university": "University of Waterloo",
+   "country": "Canada",
+   "code": "CS480",
+   "title": "CS480/680: Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Fall 2018",
+   "year": 2018,
+   "url": "https://cs.uwaterloo.ca/sites/default/files/uploads/documents/f18_cs_480_cs_680_outline.pdf",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Machine Learning: A Probabilistic Perspective",
+     "role": "textbook"
+    },
+    {
+     "title": "The Elements of Statistical Learning",
+     "role": "textbook"
+    },
+    {
+     "title": "Understanding Machine Learning: From Theory to Algorithms",
+     "role": "textbook"
+    }
+   ],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Waterloo",
+   "country": "Canada",
+   "code": "CS480",
+   "title": "CS480/680: Introduction to Machine Learning",
+   "topic": "ml-core",
+   "level": "mixed",
+   "term": "Fall 2026",
+   "year": 2026,
+   "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/syllabus-480.pdf",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Dive into Deep Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Learning Theory from First Principles",
+     "role": "recommended"
+    },
+    {
+     "title": "Patterns, Predictions, and Actions",
+     "role": "recommended"
+    },
+    {
+     "title": "Probabilistic Machine Learning: Advanced Topics",
+     "role": "recommended"
+    },
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 3,
+   "materials": {}
+  },
+  {
+   "university": "University of Waterloo",
+   "country": "Canada",
+   "code": "CS489",
+   "title": "Machine Learning – Statistical and Computational Foundations",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": "Winter 08",
+   "year": 2008,
+   "url": "https://cs.uwaterloo.ca/~shai/cs489_description.pdf",
+   "books": [],
+   "unmatched_citations": 2,
+   "materials": {}
+  },
+  {
+   "university": "University of Waterloo",
+   "country": "Canada",
+   "code": "ECE730",
+   "title": "COURSE TITLE:  Quantum Machine Learning",
+   "topic": "ml-core",
+   "level": "grad",
+   "term": "Fall 2024",
+   "year": 2024,
+   "url": "https://uwaterloo.ca/electrical-computer-engineering/sites/default/files/uploads/documents/quantum-machine-learning.pdf",
+   "books": [],
+   "unmatched_citations": 0,
+   "materials": {}
+  },
+  {
+   "university": "University of Waterloo",
+   "country": "Canada",
+   "code": null,
+   "title": "Introduction to Machine Learning | Yaoliang Yu's Webpage",
+   "topic": "ml-core",
+   "level": "unknown",
+   "term": null,
+   "year": null,
+   "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/",
+   "books": [
+    {
+     "title": "Deep Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Dive into Deep Learning",
+     "role": "recommended"
+    },
+    {
+     "title": "Learning Theory from First Principles",
+     "role": "recommended"
+    },
+    {
+     "title": "Patterns, Predictions, and Actions",
+     "role": "recommended"
+    },
+    {
+     "title": "Probabilistic Machine Learning: Advanced Topics",
+     "role": "recommended"
+    },
+    {
+     "title": "Probabilistic Machine Learning: An Introduction",
+     "role": "recommended"
+    }
+   ],
+   "unmatched_citations": 11,
+   "materials": {
+    "lecture_notes": 2,
+    "video": 1,
+    "homework": 2
+   }
+  }
+ ]
+}

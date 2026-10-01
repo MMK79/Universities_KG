@@ -20,7 +20,7 @@ textbooks ML courses actually use tells the thesis which books belong in the cor
 | Course | code, title, topic (`ml-core` / `ml-related`), level, department | catalogue/module-handbook pages as a second source |
 | Offering | term, year, instructor, URL | more terms per course (archives) |
 | Books | canonical catalogue (44 books), regex + URL + ISBN matching, raw citation, role, confidence | LLM pass for messy syllabi (`method='llm'`), catalogue growth from `regex-unmatched` rows |
-| Materials | links classified into 7 types, stored with the page they were found on | verification (HEAD request), YouTube playlist/channel expansion |
+| Materials | links classified into 7 types, stored with the page they were found on | **downloaded 2026-10-01**: public slides + lecture notes as PDF/PPTX (`material_files`, section 5); still open: YouTube playlist/channel expansion |
 
 The subset used by the university source list comes from the user's
 `world_universities_and_domains.json` (Hipo *university-domains-list*, 10,191 entries).
@@ -85,6 +85,10 @@ subset ─► discover (Firecrawl search, site:<domain>, EN + local-language que
   (`crawl_log.status='robots_disallowed'`) and skipped.
 * **Rate limit**: ≥ 3 s between requests to the same host; Firecrawl calls are serialised
   with ≥ 4 s spacing and back off on 429.
+* **File downloads (phase 2)**: robots.txt per file, ≥ 1 s between requests to the same host,
+  50 MB per file, 6 GB total, only slides / lecture notes linked as PDF/PPTX, 401 and login
+  redirects skipped. Files are stored outside the repo and not republished. Results are in
+  `material_files`, which `load` and `schema` do not drop.
 * **Identification**: UA `MLCourseSurvey/0.1 (academic survey …; +https://github.com/MMK79/Universities_KG)`.
 * **No login-walled content**: no cookies, no credentials; Moodle/Canvas/LMS pages that
   require login are simply not reached (a known coverage gap, see findings).

@@ -1,0 +1,4265 @@
+{
+ "subset": "pilot",
+ "generated_at": "2026-10-01T09:27:14+00:00",
+ "items": [
+  {
+   "slug": "hastie-esl",
+   "title": "The Elements of Statistical Learning",
+   "authors": "Trevor Hastie, Robert Tibshirani, Jerome Friedman",
+   "year": 2009,
+   "edition": "2nd",
+   "isbn13": "9780387848570",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 21,
+   "offerings": 44,
+   "by_role": {
+    "textbook": {
+     "universities": 7,
+     "offerings": 10
+    },
+    "other": {
+     "universities": 20,
+     "offerings": 34
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 7,
+     "offerings": 10
+    },
+    "recommended": {
+     "universities": 11,
+     "offerings": 17
+    },
+    "mentioned": {
+     "universities": 12,
+     "offerings": 17
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 4,
+     "offerings": 11
+    },
+    "China": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "Germany": {
+     "universities": 2,
+     "offerings": 4
+    },
+    "Hong Kong": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "United States": {
+     "universities": 13,
+     "offerings": 26
+    }
+   },
+   "used_by": [
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-701",
+     "term": "Spring 2007",
+     "role": "mentioned",
+     "url": "http://www.cs.cmu.edu/~guestrin/Class/10701-S07/"
+    },
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2025",
+     "role": "mentioned",
+     "url": "http://www.cs.columbia.edu/~djhsu/coms4771-f25/"
+    },
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://www.cs.columbia.edu/~verma/classes/ml/index.html"
+    },
+    {
+     "university": "Cornell University",
+     "course": "CS4780",
+     "term": "Fall 2014",
+     "role": "textbook",
+     "url": "https://www.cs.cornell.edu/courses/cs4780/2014fa/"
+    },
+    {
+     "university": "Cornell University",
+     "course": "CS4780",
+     "term": "Spring 2017",
+     "role": "mentioned",
+     "url": "https://courses.cis.cornell.edu/cs4780/2017sp/"
+    },
+    {
+     "university": "Harvard University",
+     "course": "CS281",
+     "term": "Fall 2013",
+     "role": "mentioned",
+     "url": "https://groups.seas.harvard.edu/courses/cs281/"
+    },
+    {
+     "university": "Massachusetts Institute of Technology",
+     "course": "15.097",
+     "term": "Spring 2012",
+     "role": "recommended",
+     "url": "https://ocw.mit.edu/courses/15-097-prediction-machine-learning-and-statistics-spring-2012/pages/syllabus/"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 551",
+     "term": null,
+     "role": "textbook",
+     "url": "https://www.cs.mcgill.ca/~jpineau/comp551/Lectures/01Intro-share.pdf"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Fall 2008",
+     "role": "mentioned",
+     "url": "https://www.cs.mcgill.ca/~perkins/COMP652_Fall2008/COMP652_Syllabus.pdf"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Winter 2017",
+     "role": "mentioned",
+     "url": "https://www.cs.mcgill.ca/~dprecup/courses/ML/syllabus.html"
+    },
+    {
+     "university": "Peking University",
+     "course": "86-755",
+     "term": null,
+     "role": "textbook",
+     "url": "https://english.phbs.pku.edu.cn/uploadfile/2017/0215/20170215025701648.pdf"
+    },
+    {
+     "university": "Peking University",
+     "course": "Wei Lin - 00102892: Statistical Learning",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://math.pku.edu.cn/teachers/linw/2892f18.html"
+    },
+    {
+     "university": "Princeton University",
+     "course": "COS 324",
+     "term": "Spring 2019",
+     "role": "mentioned",
+     "url": "https://www.cs.princeton.edu/courses/archive/spring19/cos324/"
+    },
+    {
+     "university": "Princeton University",
+     "course": "COS 324",
+     "term": "fall 18",
+     "role": "recommended",
+     "url": "https://www.cs.princeton.edu/courses/archive/fall18/cos324/files/syllabus.pdf"
+    },
+    {
+     "university": "Stanford University",
+     "course": "CS 229",
+     "term": "fall 2014",
+     "role": "recommended",
+     "url": "https://cs229.stanford.edu/info.html-bold"
+    },
+    {
+     "university": "Stanford University",
+     "course": "CS 229",
+     "term": "fall 2015",
+     "role": "recommended",
+     "url": "https://cs229.stanford.edu/info.html-2015"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "Modulhandbuch M. Sc. Artificial Intelligence and Machine Learning 1",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/modulhandbuch_m_sc_artificial_intelligence_and_machine_learning_po_2023.de.pdf"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN0025",
+     "term": "WS 25/26",
+     "role": "recommended",
+     "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2025-26/business-analytics-and-machine-learning-ws-25-26/"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN2028",
+     "term": "WS 22/23",
+     "role": "recommended",
+     "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2022-23/business-analytics-and-machine-learning-ws-22-23/"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN2028",
+     "term": "WS 23/24",
+     "role": "recommended",
+     "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2023-24/business-analytics-and-machine-learning-ws-23-24/"
+    },
+    {
+     "university": "The Chinese University of Hong Kong",
+     "course": "CSCI3320",
+     "term": null,
+     "role": "recommended",
+     "url": "http://www.cse.cuhk.edu.hk/~cslui/csci3320.html"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 340",
+     "term": "Fall 2022",
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/340-F22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 340",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.cs.ubc.ca/~nando/340-2012/assignments.php"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 440",
+     "term": null,
+     "role": "textbook",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/440-W22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 540",
+     "term": "Winter 2020",
+     "role": "textbook",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/540-W20/syllabus.pdf"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CS340",
+     "term": "Fall 2007",
+     "role": "textbook",
+     "url": "https://www.cs.ubc.ca/~murphyk/Teaching/CS340-Fall07/index.html"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2016",
+     "role": "textbook",
+     "url": "https://tbp.studentorg.berkeley.edu/syllabi/313/download/"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2017",
+     "role": "mentioned",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189s17/"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2019",
+     "role": "mentioned",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189s19/"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2021",
+     "role": "mentioned",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189s21/"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2025",
+     "role": "mentioned",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189/"
+    },
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CM 226",
+     "term": "Fall 2019",
+     "role": "recommended",
+     "url": "https://web.cs.ucla.edu/~sriram/courses/cm226.fall-2019/admin/syllabus.pdf"
+    },
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CM146",
+     "term": "Winter 2019",
+     "role": "textbook",
+     "url": "http://web.cs.ucla.edu/~sriram/courses/cm146.winter-2019/html/index.html"
+    },
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CS188",
+     "term": "Winter 2017",
+     "role": "textbook",
+     "url": "http://web.cs.ucla.edu/~sriram/courses/cs188.winter-2017/html/index.html"
+    },
+    {
+     "university": "University of California, San Diego",
+     "course": "CSE 151",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://cseweb.ucsd.edu/~dasgupta/151/syllabus.html"
+    },
+    {
+     "university": "University of Illinois Urbana-Champaign",
+     "course": "CS 446",
+     "term": "Fall 2026",
+     "role": "mentioned",
+     "url": "https://courses.grainger.illinois.edu/cs446/fa2026/"
+    },
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 453",
+     "term": "Fall 2024",
+     "role": "mentioned",
+     "url": "https://qingqu.engin.umich.edu/eecs-453-principles-of-machine-learning-fall-2023/"
+    },
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 453",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://ece.engin.umich.edu/academics/course-information/course-descriptions/eecs-453/"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 311",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.cs.utoronto.ca/~bonner/courses/2021f/csc311/lectures/lec01_intro_knn.pdf"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "STA 314",
+     "term": "Fall 2024",
+     "role": "recommended",
+     "url": "https://courses.utstat.utoronto.ca/sta314_f24/lectures/syllabus.pdf"
+    },
+    {
+     "university": "University of Washington",
+     "course": "CSS 490",
+     "term": "Winter 2012",
+     "role": "recommended",
+     "url": "http://courses.washington.edu/css490/2012.Winter/CSS%20490-590%20-%20Introduction%20to%20Machine%20Learning.html"
+    },
+    {
+     "university": "University of Washington",
+     "course": "CSS 581",
+     "term": "Winter 2014",
+     "role": "recommended",
+     "url": "http://courses.washington.edu/css581/CSS%20581%20-%20Introduction%20to%20Machine%20Learning.html"
+    },
+    {
+     "university": "University of Washington",
+     "course": "STAT 416",
+     "term": "Summer 2020",
+     "role": "recommended",
+     "url": "https://courses.cs.washington.edu/courses/cse416/20su/hw5/overview.html"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS480",
+     "term": "Fall 2018",
+     "role": "textbook",
+     "url": "https://cs.uwaterloo.ca/sites/default/files/uploads/documents/f18_cs_480_cs_680_outline.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "bishop-prml",
+   "title": "Pattern Recognition and Machine Learning",
+   "authors": "Christopher M. Bishop",
+   "year": 2006,
+   "edition": null,
+   "isbn13": "9780387310732",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 19,
+   "offerings": 32,
+   "by_role": {
+    "textbook": {
+     "universities": 7,
+     "offerings": 10
+    },
+    "other": {
+     "universities": 16,
+     "offerings": 22
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 7,
+     "offerings": 10
+    },
+    "recommended": {
+     "universities": 13,
+     "offerings": 15
+    },
+    "mentioned": {
+     "universities": 6,
+     "offerings": 7
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 3,
+     "offerings": 10
+    },
+    "China": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Germany": {
+     "universities": 3,
+     "offerings": 3
+    },
+    "Hong Kong": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Korea, Republic of": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Norway": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "United States": {
+     "universities": 9,
+     "offerings": 14
+    }
+   },
+   "used_by": [
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-701",
+     "term": "Spring 2007",
+     "role": "textbook",
+     "url": "http://www.cs.cmu.edu/~guestrin/Class/10701-S07/"
+    },
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-701",
+     "term": "Spring 2024",
+     "role": "mentioned",
+     "url": "https://www.cs.cmu.edu/~hchai2/courses/10701/"
+    },
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://www.cs.columbia.edu/~verma/classes/ml/index.html"
+    },
+    {
+     "university": "Cornell University",
+     "course": "CS4780",
+     "term": "Fall 2014",
+     "role": "textbook",
+     "url": "https://www.cs.cornell.edu/courses/cs4780/2014fa/"
+    },
+    {
+     "university": "Eberhard-Karls-Universität Tübingen",
+     "course": "ML-4103",
+     "term": "WS 2025/26",
+     "role": "recommended",
+     "url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/deep-learning/"
+    },
+    {
+     "university": "Harvard University",
+     "course": "CS281",
+     "term": "Fall 2013",
+     "role": "recommended",
+     "url": "https://groups.seas.harvard.edu/courses/cs281/"
+    },
+    {
+     "university": "Korea Advanced Institute of Science & Technology",
+     "course": "Introduction to Machine Learning",
+     "term": null,
+     "role": "recommended",
+     "url": "https://bmol.kaist.ac.kr/teachings/introduction-to-machine-learning/"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 551",
+     "term": null,
+     "role": "textbook",
+     "url": "https://www.cs.mcgill.ca/~jpineau/comp551/Lectures/01Intro-share.pdf"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Fall 2008",
+     "role": "mentioned",
+     "url": "https://www.cs.mcgill.ca/~perkins/COMP652_Fall2008/COMP652_Syllabus.pdf"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Winter 2017",
+     "role": "recommended",
+     "url": "https://www.cs.mcgill.ca/~dprecup/courses/ML/syllabus.html"
+    },
+    {
+     "university": "Norwegian University of Science and Technology",
+     "course": "TDT4173",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://www.ntnu.no/studier/emner/TDT4173"
+    },
+    {
+     "university": "Norwegian University of Science and Technology",
+     "course": "TMM4128",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://www.ntnu.no/studier/emner/TMM4128"
+    },
+    {
+     "university": "Peking University",
+     "course": "86-755",
+     "term": null,
+     "role": "textbook",
+     "url": "https://english.phbs.pku.edu.cn/uploadfile/2017/0215/20170215025701648.pdf"
+    },
+    {
+     "university": "Princeton University",
+     "course": "COS 324",
+     "term": "Spring 2019",
+     "role": "recommended",
+     "url": "https://www.cs.princeton.edu/courses/archive/spring19/cos324/"
+    },
+    {
+     "university": "Princeton University",
+     "course": "COS 324",
+     "term": "fall 18",
+     "role": "recommended",
+     "url": "https://www.cs.princeton.edu/courses/archive/fall18/cos324/files/syllabus.pdf"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "Modulhandbuch M. Sc. Artificial Intelligence and Machine Learning 1",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/modulhandbuch_m_sc_artificial_intelligence_and_machine_learning_po_2023.de.pdf"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN0001",
+     "term": "SS 2022",
+     "role": "recommended",
+     "url": "https://www.sec.in.tum.de/i20/teaching/ss2022/ausgewaehlte-themen-aus-dem-bereich-it-sicherheit"
+    },
+    {
+     "university": "The Chinese University of Hong Kong",
+     "course": "CSCI3320",
+     "term": null,
+     "role": "recommended",
+     "url": "http://www.cse.cuhk.edu.hk/~cslui/csci3320.html"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 340",
+     "term": "Fall 2022",
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/340-F22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 440",
+     "term": null,
+     "role": "textbook",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/440-W22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 540",
+     "term": "Winter 2020",
+     "role": "textbook",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/540-W20/syllabus.pdf"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CS340",
+     "term": "Fall 2007",
+     "role": "textbook",
+     "url": "https://www.cs.ubc.ca/~murphyk/Teaching/CS340-Fall07/index.html"
+    },
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CM146",
+     "term": "Winter 2019",
+     "role": "textbook",
+     "url": "http://web.cs.ucla.edu/~sriram/courses/cm146.winter-2019/html/index.html"
+    },
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CS188",
+     "term": "Winter 2017",
+     "role": "textbook",
+     "url": "http://web.cs.ucla.edu/~sriram/courses/cs188.winter-2017/html/index.html"
+    },
+    {
+     "university": "University of California, San Diego",
+     "course": "CSE 291",
+     "term": "Spring 2017",
+     "role": "mentioned",
+     "url": "https://cseweb.ucsd.edu/classes/sp17/cse291-d/"
+    },
+    {
+     "university": "University of California, San Diego",
+     "course": "DSC 240",
+     "term": "Winter 2025",
+     "role": "recommended",
+     "url": "https://cseweb.ucsd.edu/~yuxiangw/classes/DSC240-2025Winter/Lectures/syllabus.pdf"
+    },
+    {
+     "university": "University of Illinois Urbana-Champaign",
+     "course": "CS 441",
+     "term": null,
+     "role": "recommended",
+     "url": "https://courses.grainger.illinois.edu/CS441/sp2022/syllabus.html"
+    },
+    {
+     "university": "University of Illinois Urbana-Champaign",
+     "course": "CS 446",
+     "term": "Fall 2026",
+     "role": "mentioned",
+     "url": "https://courses.grainger.illinois.edu/cs446/fa2026/"
+    },
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 553",
+     "term": null,
+     "role": "recommended",
+     "url": "https://web.eecs.umich.edu/~fessler/course/553/l/l01.pdf"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 311",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.cs.utoronto.ca/~bonner/courses/2021f/csc311/lectures/lec01_intro_knn.pdf"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 411",
+     "term": "Winter 2016",
+     "role": "textbook",
+     "url": "https://www.cs.utoronto.ca/~fidler/teaching/2015/CSC411.html"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "STA 314",
+     "term": "Fall 2024",
+     "role": "recommended",
+     "url": "https://courses.utstat.utoronto.ca/sta314_f24/lectures/syllabus.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "murphy-mlpp",
+   "title": "Machine Learning: A Probabilistic Perspective",
+   "authors": "Kevin P. Murphy",
+   "year": 2012,
+   "edition": null,
+   "isbn13": "9780262018029",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 16,
+   "offerings": 28,
+   "by_role": {
+    "textbook": {
+     "universities": 8,
+     "offerings": 9
+    },
+    "other": {
+     "universities": 12,
+     "offerings": 19
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 8,
+     "offerings": 9
+    },
+    "recommended": {
+     "universities": 8,
+     "offerings": 12
+    },
+    "mentioned": {
+     "universities": 4,
+     "offerings": 7
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 4,
+     "offerings": 8
+    },
+    "Germany": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "Hong Kong": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "Korea, Republic of": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "United States": {
+     "universities": 8,
+     "offerings": 15
+    }
+   },
+   "used_by": [
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-301",
+     "term": "Spring 2026",
+     "role": "textbook",
+     "url": "https://www.cs.cmu.edu/~mgormley/courses/10601/"
+    },
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-701",
+     "term": "Spring 2024",
+     "role": "recommended",
+     "url": "https://www.cs.cmu.edu/~hchai2/courses/10701/"
+    },
+    {
+     "university": "Cornell University",
+     "course": "CS4780",
+     "term": "Fall 2014",
+     "role": "textbook",
+     "url": "https://www.cs.cornell.edu/courses/cs4780/2014fa/"
+    },
+    {
+     "university": "Cornell University",
+     "course": "CS4780",
+     "term": "Spring 2017",
+     "role": "mentioned",
+     "url": "https://courses.cis.cornell.edu/cs4780/2017sp/"
+    },
+    {
+     "university": "Harvard University",
+     "course": "CS281",
+     "term": "Fall 2013",
+     "role": "textbook",
+     "url": "https://groups.seas.harvard.edu/courses/cs281/"
+    },
+    {
+     "university": "Korea Advanced Institute of Science & Technology",
+     "course": "Introduction to Machine Learning",
+     "term": null,
+     "role": "textbook",
+     "url": "https://bmol.kaist.ac.kr/teachings/introduction-to-machine-learning/"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Winter 2017",
+     "role": "recommended",
+     "url": "https://www.cs.mcgill.ca/~dprecup/courses/ML/syllabus.html"
+    },
+    {
+     "university": "Princeton University",
+     "course": "COS 324",
+     "term": "Spring 2019",
+     "role": "recommended",
+     "url": "https://www.cs.princeton.edu/courses/archive/spring19/cos324/"
+    },
+    {
+     "university": "Princeton University",
+     "course": "COS 324",
+     "term": "fall 18",
+     "role": "recommended",
+     "url": "https://www.cs.princeton.edu/courses/archive/fall18/cos324/files/syllabus.pdf"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "04-10-0512-vu Optimierungsmethoden für maschinelles Lernen",
+     "term": "Winter 2026",
+     "role": "recommended",
+     "url": "https://www.tucan.tu-darmstadt.de/scripts/mgrqispi.dll?APPNAME=CampusNet&PRGNAME=COURSEDETAILS&ARGUMENTS=-N000000000000001,-N000655,-N0,-N375502935248105,-N375502935285106,-N0,-N0,-N0"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "Modulhandbuch M. Sc. Artificial Intelligence and Machine Learning 1",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/modulhandbuch_m_sc_artificial_intelligence_and_machine_learning_po_2023.de.pdf"
+    },
+    {
+     "university": "The Chinese University of Hong Kong",
+     "course": "CSCI3320",
+     "term": null,
+     "role": "recommended",
+     "url": "http://www.cse.cuhk.edu.hk/~cslui/csci3320.html"
+    },
+    {
+     "university": "The Hong Kong University of Science and Technology",
+     "course": "COMP 4211",
+     "term": "Spring 2015",
+     "role": "textbook",
+     "url": "https://home.cse.ust.hk/~dekai/4211/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 340",
+     "term": "Fall 2022",
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/340-F22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 440",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/440-W22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 540",
+     "term": "Winter 2017",
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/540-W17/"
+    },
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CM 226",
+     "term": "Fall 2019",
+     "role": "recommended",
+     "url": "https://web.cs.ucla.edu/~sriram/courses/cm226.fall-2019/admin/syllabus.pdf"
+    },
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CM146",
+     "term": "Winter 2019",
+     "role": "textbook",
+     "url": "http://web.cs.ucla.edu/~sriram/courses/cm146.winter-2019/html/index.html"
+    },
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CS188",
+     "term": "Winter 2017",
+     "role": "textbook",
+     "url": "http://web.cs.ucla.edu/~sriram/courses/cs188.winter-2017/html/index.html"
+    },
+    {
+     "university": "University of California, San Diego",
+     "course": "CSE 151",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://cseweb.ucsd.edu/~dasgupta/151/syllabus.html"
+    },
+    {
+     "university": "University of California, San Diego",
+     "course": "CSE 291",
+     "term": "Spring 2017",
+     "role": "textbook",
+     "url": "https://cseweb.ucsd.edu/classes/sp17/cse291-d/"
+    },
+    {
+     "university": "University of Illinois Urbana-Champaign",
+     "course": "CS 446",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://courses.grainger.illinois.edu/cs446/fa2026/"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 311",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.cs.utoronto.ca/~bonner/courses/2021f/csc311/lectures/lec01_intro_knn.pdf"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 411",
+     "term": "Winter 2016",
+     "role": "recommended",
+     "url": "https://www.cs.utoronto.ca/~fidler/teaching/2015/CSC411.html"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "STA 314",
+     "term": "Fall 2024",
+     "role": "recommended",
+     "url": "https://courses.utstat.utoronto.ca/sta314_f24/lectures/syllabus.pdf"
+    },
+    {
+     "university": "University of Washington",
+     "course": "CSS 490",
+     "term": "Winter 2012",
+     "role": "mentioned",
+     "url": "http://courses.washington.edu/css490/2012.Winter/CSS%20490-590%20-%20Introduction%20to%20Machine%20Learning.html"
+    },
+    {
+     "university": "University of Washington",
+     "course": "CSS 581",
+     "term": "Winter 2014",
+     "role": "mentioned",
+     "url": "http://courses.washington.edu/css581/CSS%20581%20-%20Introduction%20to%20Machine%20Learning.html"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS480",
+     "term": "Fall 2018",
+     "role": "textbook",
+     "url": "https://cs.uwaterloo.ca/sites/default/files/uploads/documents/f18_cs_480_cs_680_outline.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "goodfellow-dl",
+   "title": "Deep Learning",
+   "authors": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+   "year": 2016,
+   "edition": null,
+   "isbn13": "9780262035613",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 14,
+   "offerings": 25,
+   "by_role": {
+    "textbook": {
+     "universities": 5,
+     "offerings": 11
+    },
+    "other": {
+     "universities": 11,
+     "offerings": 14
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 5,
+     "offerings": 11
+    },
+    "recommended": {
+     "universities": 4,
+     "offerings": 5
+    },
+    "mentioned": {
+     "universities": 7,
+     "offerings": 9
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 4,
+     "offerings": 7
+    },
+    "China": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Germany": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "Hong Kong": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Korea, Republic of": {
+     "universities": 1,
+     "offerings": 6
+    },
+    "United States": {
+     "universities": 5,
+     "offerings": 8
+    }
+   },
+   "used_by": [
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-301",
+     "term": "Spring 2026",
+     "role": "mentioned",
+     "url": "https://www.cs.cmu.edu/~mgormley/courses/10601/"
+    },
+    {
+     "university": "Carnegie Mellon University",
+     "course": "MLDL 165B",
+     "term": "Winter 2022",
+     "role": "textbook",
+     "url": "https://www.cs.cmu.edu/~leili/course/mldl22w/index.html"
+    },
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2026",
+     "role": "mentioned",
+     "url": "https://www.cs.columbia.edu/~verma/classes/ml/index.html"
+    },
+    {
+     "university": "Columbia University",
+     "course": "COMS W4995",
+     "term": "Spring 2020",
+     "role": "mentioned",
+     "url": "https://www.cs.columbia.edu/~amueller/comsw4995s20/"
+    },
+    {
+     "university": "Cornell University",
+     "course": "CS4787",
+     "term": "Fall 2025",
+     "role": "mentioned",
+     "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/"
+    },
+    {
+     "university": "Eberhard-Karls-Universität Tübingen",
+     "course": "ML-4103",
+     "term": "WS 2025/26",
+     "role": "mentioned",
+     "url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/deep-learning/"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 551",
+     "term": null,
+     "role": "textbook",
+     "url": "https://www.cs.mcgill.ca/~jpineau/comp551/Lectures/01Intro-share.pdf"
+    },
+    {
+     "university": "Peking University",
+     "course": "00103335: Deep Learning and Reinforcement Learning",
+     "term": "Fall 2025",
+     "role": "mentioned",
+     "url": "https://math.pku.edu.cn/teachers/linw/3335f25/syl.pdf"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "43-201",
+     "term": "Spring 2024",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mldl1_2024_1/index.html"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "Machine Learning for Visual Understanding (Fall 2021)",
+     "term": "Fall 2021",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2021_2/index.html"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "Machine Learning & Deep Learning I (Spring 2022)",
+     "term": "Spring 2022",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mldl1_2022_1/index.html"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "Machine Learning for Visual Understanding (Fall 2021)",
+     "term": "Spring 2023",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2023_1/index.html"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "Machine Learning for Visual Understanding (Fall 2021)",
+     "term": "Spring 2025",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2025_1/index.html"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "Machine Learning for Visual Understanding (Fall 2021)",
+     "term": "Spring 2026",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2026_1/index.html"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN0001",
+     "term": "SS 2022",
+     "role": "recommended",
+     "url": "https://www.sec.in.tum.de/i20/teaching/ss2022/ausgewaehlte-themen-aus-dem-bereich-it-sicherheit"
+    },
+    {
+     "university": "The Chinese University of Hong Kong",
+     "course": "ELEG5491",
+     "term": null,
+     "role": "mentioned",
+     "url": "http://www.ee.cuhk.edu.hk/~xgwang/dl/syllabus.html"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 440",
+     "term": null,
+     "role": "textbook",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/440-W22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 540",
+     "term": "Winter 2020",
+     "role": "textbook",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/540-W20/syllabus.pdf"
+    },
+    {
+     "university": "University of Illinois Urbana-Champaign",
+     "course": "CS 446",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://courses.grainger.illinois.edu/cs446/fa2026/"
+    },
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 453",
+     "term": "Fall 2024",
+     "role": "mentioned",
+     "url": "https://qingqu.engin.umich.edu/eecs-453-principles-of-machine-learning-fall-2023/"
+    },
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 453",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://ece.engin.umich.edu/academics/course-information/course-descriptions/eecs-453/"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 311",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.cs.utoronto.ca/~bonner/courses/2021f/csc311/lectures/lec01_intro_knn.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS480",
+     "term": "Fall 2018",
+     "role": "textbook",
+     "url": "https://cs.uwaterloo.ca/sites/default/files/uploads/documents/f18_cs_480_cs_680_outline.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS480",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/syllabus-480.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "Introduction to Machine Learning | Yaoliang Yu's Webpage",
+     "term": null,
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/"
+    }
+   ]
+  },
+  {
+   "slug": "james-isl",
+   "title": "An Introduction to Statistical Learning",
+   "authors": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (, Jonathan Taylor)",
+   "year": 2021,
+   "edition": "2nd (R); Python edition 2023",
+   "isbn13": "9781071614174",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 11,
+   "offerings": 20,
+   "by_role": {
+    "textbook": {
+     "universities": 4,
+     "offerings": 7
+    },
+    "other": {
+     "universities": 9,
+     "offerings": 13
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 4,
+     "offerings": 7
+    },
+    "recommended": {
+     "universities": 7,
+     "offerings": 10
+    },
+    "mentioned": {
+     "universities": 2,
+     "offerings": 3
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "China": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Germany": {
+     "universities": 1,
+     "offerings": 3
+    },
+    "Hong Kong": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Korea, Republic of": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "United States": {
+     "universities": 6,
+     "offerings": 11
+    }
+   },
+   "used_by": [
+    {
+     "university": "Cornell University",
+     "course": "INFO 4940",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://info4940.infosci.cornell.edu/"
+    },
+    {
+     "university": "Georgia Institute of Technology",
+     "course": "CS7646",
+     "term": "Fall 2023",
+     "role": "recommended",
+     "url": "https://lucylabs.gatech.edu/ml4t/"
+    },
+    {
+     "university": "Peking University",
+     "course": "Wei Lin - 00102892: Statistical Learning",
+     "term": null,
+     "role": "recommended",
+     "url": "https://math.pku.edu.cn/teachers/linw/2892f18.html"
+    },
+    {
+     "university": "Princeton University",
+     "course": "COS 324",
+     "term": "Spring 2019",
+     "role": "recommended",
+     "url": "https://www.cs.princeton.edu/courses/archive/spring19/cos324/"
+    },
+    {
+     "university": "Princeton University",
+     "course": "COS 324",
+     "term": "fall 18",
+     "role": "recommended",
+     "url": "https://www.cs.princeton.edu/courses/archive/fall18/cos324/files/syllabus.pdf"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "43-201",
+     "term": "Spring 2024",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mldl1_2024_1/index.html"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "Machine Learning & Deep Learning I (Spring 2022)",
+     "term": "Spring 2022",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mldl1_2022_1/index.html"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN0025",
+     "term": "WS 25/26",
+     "role": "recommended",
+     "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2025-26/business-analytics-and-machine-learning-ws-25-26/"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN2028",
+     "term": "WS 22/23",
+     "role": "recommended",
+     "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2022-23/business-analytics-and-machine-learning-ws-22-23/"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN2028",
+     "term": "WS 23/24",
+     "role": "recommended",
+     "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2023-24/business-analytics-and-machine-learning-ws-23-24/"
+    },
+    {
+     "university": "The Chinese University of Hong Kong",
+     "course": "CSCI3320",
+     "term": null,
+     "role": "recommended",
+     "url": "http://www.cse.cuhk.edu.hk/~cslui/csci3320.html"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2016",
+     "role": "textbook",
+     "url": "https://tbp.studentorg.berkeley.edu/syllabi/313/download/"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2017",
+     "role": "textbook",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189s17/"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2019",
+     "role": "textbook",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189s19/"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2021",
+     "role": "mentioned",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189s21/"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2025",
+     "role": "mentioned",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189/"
+    },
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CS188",
+     "term": "Winter 2017",
+     "role": "textbook",
+     "url": "http://web.cs.ucla.edu/~sriram/courses/cs188.winter-2017/html/index.html"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 311",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.cs.utoronto.ca/~bonner/courses/2021f/csc311/lectures/lec01_intro_knn.pdf"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "STA 314",
+     "term": "Fall 2024",
+     "role": "textbook",
+     "url": "https://courses.utstat.utoronto.ca/sta314_f24/lectures/syllabus.pdf"
+    },
+    {
+     "university": "University of Washington",
+     "course": "CSS 581",
+     "term": "Winter 2014",
+     "role": "recommended",
+     "url": "http://courses.washington.edu/css581/CSS%20581%20-%20Introduction%20to%20Machine%20Learning.html"
+    }
+   ]
+  },
+  {
+   "slug": "mitchell-ml",
+   "title": "Machine Learning",
+   "authors": "Tom M. Mitchell",
+   "year": 1997,
+   "edition": null,
+   "isbn13": "9780070428072",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 10,
+   "offerings": 18,
+   "by_role": {
+    "textbook": {
+     "universities": 5,
+     "offerings": 7
+    },
+    "other": {
+     "universities": 7,
+     "offerings": 11
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 5,
+     "offerings": 7
+    },
+    "recommended": {
+     "universities": 6,
+     "offerings": 8
+    },
+    "mentioned": {
+     "universities": 2,
+     "offerings": 3
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 2,
+     "offerings": 4
+    },
+    "Germany": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "Hong Kong": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Norway": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "United States": {
+     "universities": 5,
+     "offerings": 9
+    }
+   },
+   "used_by": [
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-301",
+     "term": "Spring 2026",
+     "role": "textbook",
+     "url": "https://www.cs.cmu.edu/~mgormley/courses/10601/"
+    },
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-701",
+     "term": "Spring 2007",
+     "role": "mentioned",
+     "url": "http://www.cs.cmu.edu/~guestrin/Class/10701-S07/"
+    },
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-701",
+     "term": "Spring 2024",
+     "role": "recommended",
+     "url": "https://www.cs.cmu.edu/~hchai2/courses/10701/"
+    },
+    {
+     "university": "Cornell University",
+     "course": "CS4780",
+     "term": "Fall 2014",
+     "role": "textbook",
+     "url": "https://www.cs.cornell.edu/courses/cs4780/2014fa/"
+    },
+    {
+     "university": "Georgia Institute of Technology",
+     "course": "CS-7641",
+     "term": null,
+     "role": "textbook",
+     "url": "https://omscs.gatech.edu/sites/default/files/documents/Syllabi/CS%207641%202025-1.pdf"
+    },
+    {
+     "university": "Georgia Institute of Technology",
+     "course": "CS7646",
+     "term": "Fall 2023",
+     "role": "textbook",
+     "url": "https://lucylabs.gatech.edu/ml4t/"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 551",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.cs.mcgill.ca/~jpineau/comp551/Lectures/01Intro-share.pdf"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Fall 2008",
+     "role": "textbook",
+     "url": "https://www.cs.mcgill.ca/~perkins/COMP652_Fall2008/COMP652_Syllabus.pdf"
+    },
+    {
+     "university": "McGill University",
+     "course": "EST 2001",
+     "term": "Winter 2001",
+     "role": "textbook",
+     "url": "https://www.cs.mcgill.ca/~dprecup//courses/Winter2001/766/syllabus.html"
+    },
+    {
+     "university": "Norwegian University of Science and Technology",
+     "course": "TDT4173",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://www.ntnu.no/studier/emner/TDT4173"
+    },
+    {
+     "university": "Norwegian University of Science and Technology",
+     "course": "TMM4128",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://www.ntnu.no/studier/emner/TMM4128"
+    },
+    {
+     "university": "Stanford University",
+     "course": "CS 229",
+     "term": "fall 2014",
+     "role": "recommended",
+     "url": "https://cs229.stanford.edu/info.html-bold"
+    },
+    {
+     "university": "Stanford University",
+     "course": "CS 229",
+     "term": "fall 2015",
+     "role": "recommended",
+     "url": "https://cs229.stanford.edu/info.html-2015"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "04-10-0512-vu Optimierungsmethoden für maschinelles Lernen",
+     "term": "Winter 2026",
+     "role": "recommended",
+     "url": "https://www.tucan.tu-darmstadt.de/scripts/mgrqispi.dll?APPNAME=CampusNet&PRGNAME=COURSEDETAILS&ARGUMENTS=-N000000000000001,-N000655,-N0,-N375502935248105,-N375502935285106,-N0,-N0,-N0"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "Modulhandbuch M. Sc. Artificial Intelligence and Machine Learning 1",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/modulhandbuch_m_sc_artificial_intelligence_and_machine_learning_po_2023.de.pdf"
+    },
+    {
+     "university": "The Hong Kong University of Science and Technology",
+     "course": "COMP 4211",
+     "term": "Spring 2015",
+     "role": "textbook",
+     "url": "https://home.cse.ust.hk/~dekai/4211/"
+    },
+    {
+     "university": "University of Illinois Urbana-Champaign",
+     "course": "CS 446",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://courses.grainger.illinois.edu/cs446/fa2026/"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 411",
+     "term": "Winter 2016",
+     "role": "recommended",
+     "url": "https://www.cs.utoronto.ca/~fidler/teaching/2015/CSC411.html"
+    }
+   ]
+  },
+  {
+   "slug": "sutton-rl",
+   "title": "Reinforcement Learning: An Introduction",
+   "authors": "Richard S. Sutton, Andrew G. Barto",
+   "year": 2018,
+   "edition": "2nd",
+   "isbn13": "9780262039246",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 8,
+   "offerings": 10,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 8,
+     "offerings": 10
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 7,
+     "offerings": 8
+    },
+    "mentioned": {
+     "universities": 2,
+     "offerings": 2
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 2,
+     "offerings": 3
+    },
+    "China": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Germany": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "United States": {
+     "universities": 3,
+     "offerings": 4
+    }
+   },
+   "used_by": [
+    {
+     "university": "Georgia Institute of Technology",
+     "course": "CS-7641",
+     "term": null,
+     "role": "recommended",
+     "url": "https://omscs.gatech.edu/sites/default/files/documents/Syllabi/CS%207641%202025-1.pdf"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Fall 2008",
+     "role": "mentioned",
+     "url": "https://www.cs.mcgill.ca/~perkins/COMP652_Fall2008/COMP652_Syllabus.pdf"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Winter 2017",
+     "role": "recommended",
+     "url": "https://www.cs.mcgill.ca/~dprecup/courses/ML/syllabus.html"
+    },
+    {
+     "university": "Peking University",
+     "course": "00103335: Deep Learning and Reinforcement Learning",
+     "term": "Fall 2025",
+     "role": "mentioned",
+     "url": "https://math.pku.edu.cn/teachers/linw/3335f25/syl.pdf"
+    },
+    {
+     "university": "Princeton University",
+     "course": "COS 324",
+     "term": "fall 18",
+     "role": "recommended",
+     "url": "https://www.cs.princeton.edu/courses/archive/fall18/cos324/files/syllabus.pdf"
+    },
+    {
+     "university": "Stanford University",
+     "course": "CS 229",
+     "term": "fall 2014",
+     "role": "recommended",
+     "url": "https://cs229.stanford.edu/info.html-bold"
+    },
+    {
+     "university": "Stanford University",
+     "course": "CS 229",
+     "term": "fall 2015",
+     "role": "recommended",
+     "url": "https://cs229.stanford.edu/info.html-2015"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "Modulhandbuch M. Sc. Artificial Intelligence and Machine Learning 1",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/modulhandbuch_m_sc_artificial_intelligence_and_machine_learning_po_2023.de.pdf"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN0025",
+     "term": "WS 25/26",
+     "role": "recommended",
+     "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2025-26/business-analytics-and-machine-learning-ws-25-26/"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 311",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.cs.utoronto.ca/~bonner/courses/2021f/csc311/lectures/lec01_intro_knn.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "shalev-uml",
+   "title": "Understanding Machine Learning: From Theory to Algorithms",
+   "authors": "Shai Shalev-Shwartz, Shai Ben-David",
+   "year": 2014,
+   "edition": null,
+   "isbn13": "9781107057135",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 7,
+   "offerings": 10,
+   "by_role": {
+    "textbook": {
+     "universities": 3,
+     "offerings": 3
+    },
+    "other": {
+     "universities": 5,
+     "offerings": 7
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 3,
+     "offerings": 3
+    },
+    "recommended": {
+     "universities": 4,
+     "offerings": 6
+    },
+    "mentioned": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 3,
+     "offerings": 4
+    },
+    "China": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "United States": {
+     "universities": 3,
+     "offerings": 4
+    }
+   },
+   "used_by": [
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://www.cs.columbia.edu/~verma/classes/ml/index.html"
+    },
+    {
+     "university": "Columbia University",
+     "course": "COMS 4995",
+     "term": "Spring 2020",
+     "role": "recommended",
+     "url": "http://www.cs.columbia.edu/~djhsu/coms4995-s20/"
+    },
+    {
+     "university": "Cornell University",
+     "course": "CS4787",
+     "term": "Fall 2025",
+     "role": "recommended",
+     "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 551",
+     "term": null,
+     "role": "textbook",
+     "url": "https://www.cs.mcgill.ca/~jpineau/comp551/Lectures/01Intro-share.pdf"
+    },
+    {
+     "university": "Peking University",
+     "course": "00103335: Deep Learning and Reinforcement Learning",
+     "term": "Fall 2025",
+     "role": "recommended",
+     "url": "https://math.pku.edu.cn/teachers/linw/3335f25/syl.pdf"
+    },
+    {
+     "university": "Peking University",
+     "course": "机器学习基础 - 北京大学数学学院",
+     "term": null,
+     "role": "recommended",
+     "url": "https://math.pku.edu.cn/bks/sykc/148690.htm"
+    },
+    {
+     "university": "University of Illinois Urbana-Champaign",
+     "course": "CS 598",
+     "term": null,
+     "role": "textbook",
+     "url": "https://mjt.cs.illinois.edu/courses/mlt-f18/"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 311",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.cs.utoronto.ca/~bonner/courses/2021f/csc311/lectures/lec01_intro_knn.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS 485",
+     "term": "Fall 2021",
+     "role": "mentioned",
+     "url": "https://student.cs.uwaterloo.ca/~cs485/"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS480",
+     "term": "Fall 2018",
+     "role": "textbook",
+     "url": "https://cs.uwaterloo.ca/sites/default/files/uploads/documents/f18_cs_480_cs_680_outline.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "duda-pc",
+   "title": "Pattern Classification",
+   "authors": "Richard O. Duda, Peter E. Hart, David G. Stork",
+   "year": 2000,
+   "edition": "2nd",
+   "isbn13": "9780471056690",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 7,
+   "offerings": 9,
+   "by_role": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "other": {
+     "universities": 6,
+     "offerings": 8
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "recommended": {
+     "universities": 5,
+     "offerings": 6
+    },
+    "mentioned": {
+     "universities": 2,
+     "offerings": 2
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "Germany": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "United States": {
+     "universities": 5,
+     "offerings": 6
+    }
+   },
+   "used_by": [
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2025",
+     "role": "recommended",
+     "url": "http://www.cs.columbia.edu/~djhsu/coms4771-f25/"
+    },
+    {
+     "university": "Cornell University",
+     "course": "CS4780",
+     "term": "Fall 2014",
+     "role": "textbook",
+     "url": "https://www.cs.cornell.edu/courses/cs4780/2014fa/"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Fall 2008",
+     "role": "mentioned",
+     "url": "https://www.cs.mcgill.ca/~perkins/COMP652_Fall2008/COMP652_Syllabus.pdf"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Winter 2017",
+     "role": "recommended",
+     "url": "https://www.cs.mcgill.ca/~dprecup/courses/ML/syllabus.html"
+    },
+    {
+     "university": "Stanford University",
+     "course": "CS 229",
+     "term": "fall 2014",
+     "role": "recommended",
+     "url": "https://cs229.stanford.edu/info.html-bold"
+    },
+    {
+     "university": "Stanford University",
+     "course": "CS 229",
+     "term": "fall 2015",
+     "role": "recommended",
+     "url": "https://cs229.stanford.edu/info.html-2015"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "Modulhandbuch M. Sc. Artificial Intelligence and Machine Learning 1",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/modulhandbuch_m_sc_artificial_intelligence_and_machine_learning_po_2023.de.pdf"
+    },
+    {
+     "university": "University of California, San Diego",
+     "course": "CSE 151",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://cseweb.ucsd.edu/~dasgupta/151/syllabus.html"
+    },
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 553",
+     "term": null,
+     "role": "recommended",
+     "url": "https://web.eecs.umich.edu/~fessler/course/553/l/l01.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "mackay-itila",
+   "title": "Information Theory, Inference, and Learning Algorithms",
+   "authors": "David J. C. MacKay",
+   "year": 2003,
+   "edition": null,
+   "isbn13": "9780521642989",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 7,
+   "offerings": 8,
+   "by_role": {
+    "textbook": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "other": {
+     "universities": 5,
+     "offerings": 6
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "recommended": {
+     "universities": 5,
+     "offerings": 6
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "Germany": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "United States": {
+     "universities": 4,
+     "offerings": 5
+    }
+   },
+   "used_by": [
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-701",
+     "term": "Spring 2007",
+     "role": "textbook",
+     "url": "http://www.cs.cmu.edu/~guestrin/Class/10701-S07/"
+    },
+    {
+     "university": "Harvard University",
+     "course": "CS281",
+     "term": "Fall 2013",
+     "role": "recommended",
+     "url": "https://groups.seas.harvard.edu/courses/cs281/"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Winter 2017",
+     "role": "recommended",
+     "url": "https://www.cs.mcgill.ca/~dprecup/courses/ML/syllabus.html"
+    },
+    {
+     "university": "Princeton University",
+     "course": "COS 324",
+     "term": "Spring 2019",
+     "role": "recommended",
+     "url": "https://www.cs.princeton.edu/courses/archive/spring19/cos324/"
+    },
+    {
+     "university": "Princeton University",
+     "course": "COS 324",
+     "term": "fall 18",
+     "role": "recommended",
+     "url": "https://www.cs.princeton.edu/courses/archive/fall18/cos324/files/syllabus.pdf"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "Modulhandbuch M. Sc. Artificial Intelligence and Machine Learning 1",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/modulhandbuch_m_sc_artificial_intelligence_and_machine_learning_po_2023.de.pdf"
+    },
+    {
+     "university": "University of California, San Diego",
+     "course": "CSE 291",
+     "term": "Spring 2017",
+     "role": "textbook",
+     "url": "https://cseweb.ucsd.edu/classes/sp17/cse291-d/"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 311",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.cs.utoronto.ca/~bonner/courses/2021f/csc311/lectures/lec01_intro_knn.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "daume-ciml",
+   "title": "A Course in Machine Learning",
+   "authors": "Hal Daumé III",
+   "year": 2017,
+   "edition": null,
+   "isbn13": null,
+   "isbn_verified": null,
+   "free_url": null,
+   "universities": 6,
+   "offerings": 12,
+   "by_role": {
+    "textbook": {
+     "universities": 2,
+     "offerings": 3
+    },
+    "other": {
+     "universities": 5,
+     "offerings": 9
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 2,
+     "offerings": 3
+    },
+    "recommended": {
+     "universities": 2,
+     "offerings": 3
+    },
+    "mentioned": {
+     "universities": 4,
+     "offerings": 6
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 3
+    },
+    "United States": {
+     "universities": 5,
+     "offerings": 9
+    }
+   },
+   "used_by": [
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-301",
+     "term": "Spring 2026",
+     "role": "textbook",
+     "url": "https://www.cs.cmu.edu/~mgormley/courses/10601/"
+    },
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-701",
+     "term": "Spring 2024",
+     "role": "recommended",
+     "url": "https://www.cs.cmu.edu/~hchai2/courses/10701/"
+    },
+    {
+     "university": "Carnegie Mellon University",
+     "course": "MLDL 165B",
+     "term": "Winter 2022",
+     "role": "recommended",
+     "url": "https://www.cs.cmu.edu/~leili/course/mldl22w/index.html"
+    },
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2025",
+     "role": "recommended",
+     "url": "http://www.cs.columbia.edu/~djhsu/coms4771-f25/"
+    },
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2026",
+     "role": "mentioned",
+     "url": "https://www.cs.columbia.edu/~verma/classes/ml/index.html"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 340",
+     "term": "Fall 2022",
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/340-F22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 440",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/440-W22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 540",
+     "term": "Winter 2017",
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/540-W17/"
+    },
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CM146",
+     "term": "Winter 2019",
+     "role": "textbook",
+     "url": "http://web.cs.ucla.edu/~sriram/courses/cm146.winter-2019/html/index.html"
+    },
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CS188",
+     "term": "Winter 2017",
+     "role": "textbook",
+     "url": "http://web.cs.ucla.edu/~sriram/courses/cs188.winter-2017/html/index.html"
+    },
+    {
+     "university": "University of Illinois Urbana-Champaign",
+     "course": "CS 446",
+     "term": "Fall 2026",
+     "role": "mentioned",
+     "url": "https://courses.grainger.illinois.edu/cs446/fa2026/"
+    },
+    {
+     "university": "University of Washington",
+     "course": "STAT 416",
+     "term": "Summer 2020",
+     "role": "mentioned",
+     "url": "https://courses.cs.washington.edu/courses/cse416/20su/hw5/overview.html"
+    }
+   ]
+  },
+  {
+   "slug": "murphy-pml1",
+   "title": "Probabilistic Machine Learning: An Introduction",
+   "authors": "Kevin P. Murphy",
+   "year": 2022,
+   "edition": null,
+   "isbn13": "9780262046824",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 6,
+   "offerings": 12,
+   "by_role": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 6
+    },
+    "other": {
+     "universities": 5,
+     "offerings": 6
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 6
+    },
+    "recommended": {
+     "universities": 5,
+     "offerings": 6
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "Germany": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Korea, Republic of": {
+     "universities": 1,
+     "offerings": 6
+    },
+    "United States": {
+     "universities": 3,
+     "offerings": 3
+    }
+   },
+   "used_by": [
+    {
+     "university": "Georgia Institute of Technology",
+     "course": "CS7646",
+     "term": "Fall 2023",
+     "role": "recommended",
+     "url": "https://lucylabs.gatech.edu/ml4t/"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "43-201",
+     "term": "Spring 2024",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mldl1_2024_1/index.html"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "Machine Learning for Visual Understanding (Fall 2021)",
+     "term": "Fall 2021",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2021_2/index.html"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "Machine Learning & Deep Learning I (Spring 2022)",
+     "term": "Spring 2022",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mldl1_2022_1/index.html"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "Machine Learning for Visual Understanding (Fall 2021)",
+     "term": "Spring 2023",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2023_1/index.html"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "Machine Learning for Visual Understanding (Fall 2021)",
+     "term": "Spring 2025",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2025_1/index.html"
+    },
+    {
+     "university": "Seoul National University",
+     "course": "Machine Learning for Visual Understanding (Fall 2021)",
+     "term": "Spring 2026",
+     "role": "textbook",
+     "url": "https://viplab.snu.ac.kr/viplab/courses/mlvu_2026_1/index.html"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "18-fi-2060-vl Maschinelles Lernen für Mechatronische und Dynamische ...",
+     "term": "Winter 2026",
+     "role": "recommended",
+     "url": "https://www.tucan.tu-darmstadt.de/scripts/mgrqispi.dll?APPNAME=CampusNet&PRGNAME=COURSEDETAILS&ARGUMENTS=-N000000000000001,-N000334,-N0,-N387755374543257,-N387755374550258,-N0,-N0,-N0"
+    },
+    {
+     "university": "University of Illinois Urbana-Champaign",
+     "course": "CS 441",
+     "term": null,
+     "role": "recommended",
+     "url": "https://courses.grainger.illinois.edu/CS441/sp2022/syllabus.html"
+    },
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 553",
+     "term": null,
+     "role": "recommended",
+     "url": "https://web.eecs.umich.edu/~fessler/course/553/l/l01.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS480",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/syllabus-480.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "Introduction to Machine Learning | Yaoliang Yu's Webpage",
+     "term": null,
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/"
+    }
+   ]
+  },
+  {
+   "slug": "deisenroth-mml",
+   "title": "Mathematics for Machine Learning",
+   "authors": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+   "year": 2020,
+   "edition": null,
+   "isbn13": "9781108455145",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 5,
+   "offerings": 11,
+   "by_role": {
+    "textbook": {
+     "universities": 2,
+     "offerings": 3
+    },
+    "other": {
+     "universities": 5,
+     "offerings": 8
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 2,
+     "offerings": 3
+    },
+    "recommended": {
+     "universities": 3,
+     "offerings": 4
+    },
+    "mentioned": {
+     "universities": 2,
+     "offerings": 4
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 3
+    },
+    "Germany": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "United States": {
+     "universities": 3,
+     "offerings": 7
+    }
+   },
+   "used_by": [
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-301",
+     "term": "Spring 2026",
+     "role": "recommended",
+     "url": "https://www.cs.cmu.edu/~mgormley/courses/10601/"
+    },
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-701",
+     "term": "Spring 2024",
+     "role": "textbook",
+     "url": "https://www.cs.cmu.edu/~hchai2/courses/10701/"
+    },
+    {
+     "university": "Carnegie Mellon University",
+     "course": "MLDL 165B",
+     "term": "Winter 2022",
+     "role": "textbook",
+     "url": "https://www.cs.cmu.edu/~leili/course/mldl22w/index.html"
+    },
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2025",
+     "role": "recommended",
+     "url": "http://www.cs.columbia.edu/~djhsu/coms4771-f25/"
+    },
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://www.cs.columbia.edu/~verma/classes/ml/index.html"
+    },
+    {
+     "university": "Eberhard-Karls-Universität Tübingen",
+     "course": "ML-4103",
+     "term": "WS 2025/26",
+     "role": "recommended",
+     "url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/deep-learning/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 340",
+     "term": "Fall 2022",
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/340-F22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 440",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/440-W22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 540",
+     "term": "Winter 2020",
+     "role": "textbook",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/540-W20/syllabus.pdf"
+    },
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 453",
+     "term": "Fall 2024",
+     "role": "mentioned",
+     "url": "https://qingqu.engin.umich.edu/eecs-453-principles-of-machine-learning-fall-2023/"
+    },
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 453",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://ece.engin.umich.edu/academics/course-information/course-descriptions/eecs-453/"
+    }
+   ]
+  },
+  {
+   "slug": "mohri-fml",
+   "title": "Foundations of Machine Learning",
+   "authors": "Mehryar Mohri, Afshin Rostamizadeh, Ameet Talwalkar",
+   "year": 2018,
+   "edition": "2nd",
+   "isbn13": "9780262039406",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 5,
+   "offerings": 7,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 5,
+     "offerings": 7
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 3,
+     "offerings": 3
+    },
+    "mentioned": {
+     "universities": 3,
+     "offerings": 4
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "China": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "United States": {
+     "universities": 3,
+     "offerings": 4
+    }
+   },
+   "used_by": [
+    {
+     "university": "Columbia University",
+     "course": "COMS 4995",
+     "term": "Spring 2020",
+     "role": "recommended",
+     "url": "http://www.cs.columbia.edu/~djhsu/coms4995-s20/"
+    },
+    {
+     "university": "Peking University",
+     "course": "00103335: Deep Learning and Reinforcement Learning",
+     "term": "Fall 2025",
+     "role": "mentioned",
+     "url": "https://math.pku.edu.cn/teachers/linw/3335f25/syl.pdf"
+    },
+    {
+     "university": "Peking University",
+     "course": "机器学习基础 - 北京大学数学学院",
+     "term": null,
+     "role": "recommended",
+     "url": "https://math.pku.edu.cn/bks/sykc/148690.htm"
+    },
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 453",
+     "term": "Fall 2024",
+     "role": "mentioned",
+     "url": "https://qingqu.engin.umich.edu/eecs-453-principles-of-machine-learning-fall-2023/"
+    },
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 453",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://ece.engin.umich.edu/academics/course-information/course-descriptions/eecs-453/"
+    },
+    {
+     "university": "University of Washington",
+     "course": "STAT 416",
+     "term": "Summer 2020",
+     "role": "recommended",
+     "url": "https://courses.cs.washington.edu/courses/cse416/20su/hw5/overview.html"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS 485",
+     "term": "Fall 2021",
+     "role": "mentioned",
+     "url": "https://student.cs.uwaterloo.ca/~cs485/"
+    }
+   ]
+  },
+  {
+   "slug": "zhang-d2l",
+   "title": "Dive into Deep Learning",
+   "authors": "Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola",
+   "year": 2023,
+   "edition": null,
+   "isbn13": "9781009389433",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 4,
+   "offerings": 6,
+   "by_role": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "other": {
+     "universities": 4,
+     "offerings": 5
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "recommended": {
+     "universities": 3,
+     "offerings": 4
+    },
+    "mentioned": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "Germany": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "United States": {
+     "universities": 2,
+     "offerings": 3
+    }
+   },
+   "used_by": [
+    {
+     "university": "Carnegie Mellon University",
+     "course": "10-701",
+     "term": "Spring 2024",
+     "role": "mentioned",
+     "url": "https://www.cs.cmu.edu/~hchai2/courses/10701/"
+    },
+    {
+     "university": "Carnegie Mellon University",
+     "course": "MLDL 165B",
+     "term": "Winter 2022",
+     "role": "textbook",
+     "url": "https://www.cs.cmu.edu/~leili/course/mldl22w/index.html"
+    },
+    {
+     "university": "Eberhard-Karls-Universität Tübingen",
+     "course": "ML-4103",
+     "term": "WS 2025/26",
+     "role": "recommended",
+     "url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/deep-learning/"
+    },
+    {
+     "university": "University of California, San Diego",
+     "course": "DSC 240",
+     "term": "Winter 2025",
+     "role": "recommended",
+     "url": "https://cseweb.ucsd.edu/~yuxiangw/classes/DSC240-2025Winter/Lectures/syllabus.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS480",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/syllabus-480.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "Introduction to Machine Learning | Yaoliang Yu's Webpage",
+     "term": null,
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/"
+    }
+   ]
+  },
+  {
+   "slug": "russell-aima",
+   "title": "Artificial Intelligence: A Modern Approach",
+   "authors": "Stuart Russell, Peter Norvig",
+   "year": 2020,
+   "edition": "4th",
+   "isbn13": "9780134610993",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 3,
+   "offerings": 4,
+   "by_role": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "other": {
+     "universities": 2,
+     "offerings": 3
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "recommended": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "mentioned": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "Hong Kong": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Massachusetts Institute of Technology",
+     "course": "15.097",
+     "term": "Spring 2012",
+     "role": "recommended",
+     "url": "https://ocw.mit.edu/courses/15-097-prediction-machine-learning-and-statistics-spring-2012/pages/syllabus/"
+    },
+    {
+     "university": "The Hong Kong University of Science and Technology",
+     "course": "COMP 4211",
+     "term": "Spring 2015",
+     "role": "textbook",
+     "url": "https://home.cse.ust.hk/~dekai/4211/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 340",
+     "term": "Fall 2022",
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/340-F22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 340",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.cs.ubc.ca/~nando/340-2012/assignments.php"
+    }
+   ]
+  },
+  {
+   "slug": "barber-brml",
+   "title": "Bayesian Reasoning and Machine Learning",
+   "authors": "David Barber",
+   "year": 2012,
+   "edition": null,
+   "isbn13": "9780521518147",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 3,
+   "offerings": 3,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 3,
+     "offerings": 3
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 3,
+     "offerings": 3
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "Germany": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Hong Kong": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Harvard University",
+     "course": "CS281",
+     "term": "Fall 2013",
+     "role": "recommended",
+     "url": "https://groups.seas.harvard.edu/courses/cs281/"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "Modulhandbuch M. Sc. Artificial Intelligence and Machine Learning 1",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/modulhandbuch_m_sc_artificial_intelligence_and_machine_learning_po_2023.de.pdf"
+    },
+    {
+     "university": "The Chinese University of Hong Kong",
+     "course": "CSCI3320",
+     "term": null,
+     "role": "recommended",
+     "url": "http://www.cse.cuhk.edu.hk/~cslui/csci3320.html"
+    }
+   ]
+  },
+  {
+   "slug": "alpaydin-iml",
+   "title": "Introduction to Machine Learning",
+   "authors": "Ethem Alpaydin",
+   "year": 2020,
+   "edition": "4th",
+   "isbn13": "9780262043793",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 3,
+   "offerings": 3,
+   "by_role": {
+    "textbook": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "other": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Cornell University",
+     "course": "CS4780",
+     "term": "Fall 2014",
+     "role": "textbook",
+     "url": "https://www.cs.cornell.edu/courses/cs4780/2014fa/"
+    },
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Fall 2008",
+     "role": "mentioned",
+     "url": "https://www.cs.mcgill.ca/~perkins/COMP652_Fall2008/COMP652_Syllabus.pdf"
+    },
+    {
+     "university": "University of Toronto",
+     "course": "CSC 411",
+     "term": "Winter 2016",
+     "role": "textbook",
+     "url": "https://www.cs.utoronto.ca/~fidler/teaching/2015/CSC411.html"
+    }
+   ]
+  },
+  {
+   "slug": "koller-pgm",
+   "title": "Probabilistic Graphical Models: Principles and Techniques",
+   "authors": "Daphne Koller, Nir Friedman",
+   "year": 2009,
+   "edition": null,
+   "isbn13": "9780262013192",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 3,
+   "offerings": 3,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 3,
+     "offerings": 3
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 3,
+     "offerings": 3
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "Germany": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "Hong Kong": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Harvard University",
+     "course": "CS281",
+     "term": "Fall 2013",
+     "role": "recommended",
+     "url": "https://groups.seas.harvard.edu/courses/cs281/"
+    },
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "Modulhandbuch M. Sc. Artificial Intelligence and Machine Learning 1",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/modulhandbuch_m_sc_artificial_intelligence_and_machine_learning_po_2023.de.pdf"
+    },
+    {
+     "university": "The Chinese University of Hong Kong",
+     "course": "CSCI3320",
+     "term": null,
+     "role": "recommended",
+     "url": "http://www.cse.cuhk.edu.hk/~cslui/csci3320.html"
+    }
+   ]
+  },
+  {
+   "slug": "witten-dm",
+   "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+   "authors": "Ian H. Witten, Eibe Frank, Mark A. Hall, Christopher J. Pal",
+   "year": 2016,
+   "edition": "4th",
+   "isbn13": "9780128042915",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 2,
+   "offerings": 4,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 2,
+     "offerings": 4
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 2,
+     "offerings": 4
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "Germany": {
+     "universities": 2,
+     "offerings": 4
+    }
+   },
+   "used_by": [
+    {
+     "university": "Technische Universität Darmstadt",
+     "course": "Modulhandbuch M. Sc. Artificial Intelligence and Machine Learning 1",
+     "term": null,
+     "role": "recommended",
+     "url": "https://www.informatik.tu-darmstadt.de/media/informatik/fb20_studium/formulare_und_dokumente/ordnungen/ordnungen_aiml/pruefungsordnung_aim_2023/modulhandbuch_m_sc_artificial_intelligence_and_machine_learning_po_2023.de.pdf"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN0025",
+     "term": "WS 25/26",
+     "role": "recommended",
+     "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2025-26/business-analytics-and-machine-learning-ws-25-26/"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN2028",
+     "term": "WS 22/23",
+     "role": "recommended",
+     "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2022-23/business-analytics-and-machine-learning-ws-22-23/"
+    },
+    {
+     "university": "Technische Universität München",
+     "course": "IN2028",
+     "term": "WS 23/24",
+     "role": "recommended",
+     "url": "https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2023-24/business-analytics-and-machine-learning-ws-23-24/"
+    }
+   ]
+  },
+  {
+   "slug": "wasserman-aos",
+   "title": "All of Statistics",
+   "authors": "Larry Wasserman",
+   "year": 2004,
+   "edition": null,
+   "isbn13": "9780387402727",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 2,
+   "offerings": 3,
+   "by_role": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "other": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "recommended": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Georgia Institute of Technology",
+     "course": "CS-7641",
+     "term": null,
+     "role": "recommended",
+     "url": "https://omscs.gatech.edu/sites/default/files/documents/Syllabi/CS%207641%202025-1.pdf"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 440",
+     "term": null,
+     "role": "textbook",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/440-W22/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 540",
+     "term": "Winter 2020",
+     "role": "textbook",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/540-W20/syllabus.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "boyd-cvx",
+   "title": "Convex Optimization",
+   "authors": "Stephen Boyd, Lieven Vandenberghe",
+   "year": 2004,
+   "edition": null,
+   "isbn13": "9780521833783",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 2,
+   "offerings": 3,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 2,
+     "offerings": 3
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 2,
+     "offerings": 3
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "United States": {
+     "universities": 1,
+     "offerings": 2
+    }
+   },
+   "used_by": [
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2026",
+     "role": "mentioned",
+     "url": "https://www.cs.columbia.edu/~verma/classes/ml/index.html"
+    },
+    {
+     "university": "Columbia University",
+     "course": "COMS 4995",
+     "term": "Spring 2020",
+     "role": "mentioned",
+     "url": "http://www.cs.columbia.edu/~djhsu/coms4995-s20/"
+    },
+    {
+     "university": "University of British Columbia",
+     "course": "CPSC 540",
+     "term": "Winter 2017",
+     "role": "mentioned",
+     "url": "https://www.cs.ubc.ca/~schmidtm/Courses/540-W17/"
+    }
+   ]
+  },
+  {
+   "slug": "geron-homl",
+   "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+   "authors": "Aurélien Géron",
+   "year": 2022,
+   "edition": "3rd",
+   "isbn13": "9781098125974",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 2,
+   "offerings": 3,
+   "by_role": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "other": {
+     "universities": 1,
+     "offerings": 2
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 1,
+     "offerings": 2
+    }
+   },
+   "by_country": {
+    "Norway": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Cornell University",
+     "course": "INFO 4940",
+     "term": null,
+     "role": "textbook",
+     "url": "https://info4940.infosci.cornell.edu/"
+    },
+    {
+     "university": "Norwegian University of Science and Technology",
+     "course": "IDATG2208",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://www.ntnu.no/studier/emner/IDATG2208"
+    },
+    {
+     "university": "Norwegian University of Science and Technology",
+     "course": "TDT4172",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://www.ntnu.no/studier/emner/TDT4172"
+    }
+   ]
+  },
+  {
+   "slug": "bach-ltfp",
+   "title": "Learning Theory from First Principles",
+   "authors": "Francis Bach",
+   "year": 2024,
+   "edition": null,
+   "isbn13": "9780262049443",
+   "isbn_verified": false,
+   "free_url": null,
+   "universities": 2,
+   "offerings": 3,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 2,
+     "offerings": 3
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 2,
+     "offerings": 3
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "China": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Peking University",
+     "course": "00103335: Deep Learning and Reinforcement Learning",
+     "term": "Fall 2025",
+     "role": "recommended",
+     "url": "https://math.pku.edu.cn/teachers/linw/3335f25/syl.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS480",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/syllabus-480.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "Introduction to Machine Learning | Yaoliang Yu's Webpage",
+     "term": null,
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/"
+    }
+   ]
+  },
+  {
+   "slug": "hardt-ppa",
+   "title": "Patterns, Predictions, and Actions",
+   "authors": "Moritz Hardt, Benjamin Recht",
+   "year": 2022,
+   "edition": null,
+   "isbn13": "9780691233727",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 2,
+   "offerings": 3,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 2,
+     "offerings": 3
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "mentioned": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Columbia University",
+     "course": "COMS 4771",
+     "term": "Fall 2025",
+     "role": "mentioned",
+     "url": "http://www.cs.columbia.edu/~djhsu/coms4771-f25/"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS480",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/syllabus-480.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "Introduction to Machine Learning | Yaoliang Yu's Webpage",
+     "term": null,
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/"
+    }
+   ]
+  },
+  {
+   "slug": "murphy-pml2",
+   "title": "Probabilistic Machine Learning: Advanced Topics",
+   "authors": "Kevin P. Murphy",
+   "year": 2023,
+   "edition": null,
+   "isbn13": "9780262048439",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 2,
+   "offerings": 3,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 2,
+     "offerings": 3
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "mentioned": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 2
+    },
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "University of Michigan - Ann Arbor",
+     "course": "EECS 553",
+     "term": null,
+     "role": "mentioned",
+     "url": "https://web.eecs.umich.edu/~fessler/course/553/l/l01.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "CS480",
+     "term": "Fall 2026",
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/syllabus-480.pdf"
+    },
+    {
+     "university": "University of Waterloo",
+     "course": "Introduction to Machine Learning | Yaoliang Yu's Webpage",
+     "term": null,
+     "role": "recommended",
+     "url": "https://cs.uwaterloo.ca/~y328yu/teaching/480/"
+    }
+   ]
+  },
+  {
+   "slug": "raschka-mlpytorch",
+   "title": "Machine Learning with PyTorch and Scikit-Learn",
+   "authors": "Sebastian Raschka, Yuxi (Hayden) Liu, Vahid Mirjalili",
+   "year": 2022,
+   "edition": null,
+   "isbn13": "9781801819312",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 2,
+   "offerings": 2,
+   "by_role": {
+    "textbook": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "other": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 2,
+     "offerings": 2
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "China": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Peking University",
+     "course": "86-755",
+     "term": null,
+     "role": "textbook",
+     "url": "https://english.phbs.pku.edu.cn/uploadfile/2017/0215/20170215025701648.pdf"
+    },
+    {
+     "university": "University of Illinois Urbana-Champaign",
+     "course": "IS327",
+     "term": "Spring 2025",
+     "role": "textbook",
+     "url": "https://vision.ischool.illinois.edu/IS327/"
+    }
+   ]
+  },
+  {
+   "slug": "nielsen-nndl",
+   "title": "Neural Networks and Deep Learning",
+   "authors": "Michael Nielsen",
+   "year": 2015,
+   "edition": null,
+   "isbn13": null,
+   "isbn_verified": null,
+   "free_url": null,
+   "universities": 1,
+   "offerings": 4,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 1,
+     "offerings": 4
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 1,
+     "offerings": 4
+    }
+   },
+   "by_country": {
+    "United States": {
+     "universities": 1,
+     "offerings": 4
+    }
+   },
+   "used_by": [
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2017",
+     "role": "mentioned",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189s17/"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2019",
+     "role": "mentioned",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189s19/"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2021",
+     "role": "mentioned",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189s21/"
+    },
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2025",
+     "role": "mentioned",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189/"
+    }
+   ]
+  },
+  {
+   "slug": "zhou-ml",
+   "title": "机器学习 (Machine Learning, 'watermelon book')",
+   "authors": "Zhou Zhihua (周志华)",
+   "year": 2016,
+   "edition": null,
+   "isbn13": "9787302423287",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 1,
+   "offerings": 2,
+   "by_role": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "other": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "recommended": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "China": {
+     "universities": 1,
+     "offerings": 2
+    }
+   },
+   "used_by": [
+    {
+     "university": "Peking University",
+     "course": "机器学习基础 - 北京大学数学学院",
+     "term": null,
+     "role": "textbook",
+     "url": "https://math.pku.edu.cn/bks/sykc/148690.htm"
+    },
+    {
+     "university": "Peking University",
+     "course": "Wei Lin - 00102892: Statistical Learning",
+     "term": null,
+     "role": "recommended",
+     "url": "https://math.pku.edu.cn/teachers/linw/2892f18.html"
+    }
+   ]
+  },
+  {
+   "slug": "chollet-dlp",
+   "title": "Deep Learning with Python",
+   "authors": "François Chollet",
+   "year": 2021,
+   "edition": "2nd",
+   "isbn13": "9781617296864",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 1,
+   "offerings": 1,
+   "by_role": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "other": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "University of Illinois Urbana-Champaign",
+     "course": "IS327",
+     "term": "Spring 2025",
+     "role": "textbook",
+     "url": "https://vision.ischool.illinois.edu/IS327/"
+    }
+   ]
+  },
+  {
+   "slug": "bishop-dl",
+   "title": "Deep Learning: Foundations and Concepts",
+   "authors": "Christopher M. Bishop, Hugh Bishop",
+   "year": 2024,
+   "edition": null,
+   "isbn13": "9783031454677",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 1,
+   "offerings": 1,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_country": {
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "University of California, Berkeley",
+     "course": "CS 189",
+     "term": "Spring 2025",
+     "role": "mentioned",
+     "url": "https://people.eecs.berkeley.edu/~jrs/189/"
+    }
+   ]
+  },
+  {
+   "slug": "rasmussen-gpml",
+   "title": "Gaussian Processes for Machine Learning",
+   "authors": "Carl Edward Rasmussen, Christopher K. I. Williams",
+   "year": 2006,
+   "edition": null,
+   "isbn13": "9780262182539",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 1,
+   "offerings": 1,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Harvard University",
+     "course": "CS281",
+     "term": "Fall 2013",
+     "role": "recommended",
+     "url": "https://groups.seas.harvard.edu/courses/cs281/"
+    }
+   ]
+  },
+  {
+   "slug": "abumostafa-lfd",
+   "title": "Learning From Data",
+   "authors": "Yaser S. Abu-Mostafa, Malik Magdon-Ismail, Hsuan-Tien Lin",
+   "year": 2012,
+   "edition": null,
+   "isbn13": "9781600490064",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 1,
+   "offerings": 1,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "Hong Kong": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "The Chinese University of Hong Kong",
+     "course": "CSCI3320",
+     "term": null,
+     "role": "recommended",
+     "url": "http://www.cse.cuhk.edu.hk/~cslui/csci3320.html"
+    }
+   ]
+  },
+  {
+   "slug": "scholkopf-lwk",
+   "title": "Learning with Kernels",
+   "authors": "Bernhard Schölkopf, Alexander J. Smola",
+   "year": 2002,
+   "edition": null,
+   "isbn13": "9780262194754",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 1,
+   "offerings": 1,
+   "by_role": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "other": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Cornell University",
+     "course": "CS4780",
+     "term": "Fall 2014",
+     "role": "textbook",
+     "url": "https://www.cs.cornell.edu/courses/cs4780/2014fa/"
+    }
+   ]
+  },
+  {
+   "slug": "flach-ml",
+   "title": "Machine Learning: The Art and Science of Algorithms that Make Sense of Data",
+   "authors": "Peter Flach",
+   "year": 2012,
+   "edition": null,
+   "isbn13": "9781107422223",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 1,
+   "offerings": 1,
+   "by_role": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "other": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 1,
+     "offerings": 1
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {
+    "United States": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "University of California, Los Angeles",
+     "course": "CS188",
+     "term": "Winter 2017",
+     "role": "textbook",
+     "url": "http://web.cs.ucla.edu/~sriram/courses/cs188.winter-2017/html/index.html"
+    }
+   ]
+  },
+  {
+   "slug": "bishop-nnpr",
+   "title": "Neural Networks for Pattern Recognition",
+   "authors": "Christopher M. Bishop",
+   "year": 1995,
+   "edition": null,
+   "isbn13": "9780198538646",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 1,
+   "offerings": 1,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_country": {
+    "Canada": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "McGill University",
+     "course": "COMP 652",
+     "term": "Fall 2008",
+     "role": "mentioned",
+     "url": "https://www.cs.mcgill.ca/~perkins/COMP652_Fall2008/COMP652_Syllabus.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "prince-udl",
+   "title": "Understanding Deep Learning",
+   "authors": "Simon J. D. Prince",
+   "year": 2023,
+   "edition": null,
+   "isbn13": "9780262048644",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 1,
+   "offerings": 1,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "by_country": {
+    "China": {
+     "universities": 1,
+     "offerings": 1
+    }
+   },
+   "used_by": [
+    {
+     "university": "Peking University",
+     "course": "00103335: Deep Learning and Reinforcement Learning",
+     "term": "Fall 2025",
+     "role": "mentioned",
+     "url": "https://math.pku.edu.cn/teachers/linw/3335f25/syl.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "kroese-dsml",
+   "title": "Data Science and Machine Learning: Mathematical and Statistical Methods",
+   "authors": "Dirk P. Kroese, Zdravko Botev, Thomas Taimre, Radislav Vaisman",
+   "year": 2019,
+   "edition": null,
+   "isbn13": "9781138492530",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 0,
+   "offerings": 0,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {},
+   "used_by": []
+  },
+  {
+   "slug": "theodoridis-mlbo",
+   "title": "Machine Learning: A Bayesian and Optimization Perspective",
+   "authors": "Sergios Theodoridis",
+   "year": 2020,
+   "edition": "2nd",
+   "isbn13": "9780128188033",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 0,
+   "offerings": 0,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {},
+   "used_by": []
+  },
+  {
+   "slug": "haykin-nnlm",
+   "title": "Neural Networks and Learning Machines",
+   "authors": "Simon Haykin",
+   "year": 2009,
+   "edition": "3rd",
+   "isbn13": "9780131471399",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 0,
+   "offerings": 0,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {},
+   "used_by": []
+  },
+  {
+   "slug": "theodoridis-pr",
+   "title": "Pattern Recognition",
+   "authors": "Sergios Theodoridis, Konstantinos Koutroumbas",
+   "year": 2008,
+   "edition": "4th",
+   "isbn13": "9781597492720",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 0,
+   "offerings": 0,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {},
+   "used_by": []
+  },
+  {
+   "slug": "burkov-hpmlb",
+   "title": "The Hundred-Page Machine Learning Book",
+   "authors": "Andriy Burkov",
+   "year": 2019,
+   "edition": null,
+   "isbn13": "9781999579500",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 0,
+   "offerings": 0,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {},
+   "used_by": []
+  },
+  {
+   "slug": "vapnik-nslt",
+   "title": "The Nature of Statistical Learning Theory",
+   "authors": "Vladimir N. Vapnik",
+   "year": 2000,
+   "edition": "2nd",
+   "isbn13": "9780387987804",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 0,
+   "offerings": 0,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {},
+   "used_by": []
+  },
+  {
+   "slug": "lihang-slm",
+   "title": "统计学习方法 (Statistical Learning Methods)",
+   "authors": "Li Hang (李航)",
+   "year": 2019,
+   "edition": "2nd",
+   "isbn13": "9787302517276",
+   "isbn_verified": true,
+   "free_url": null,
+   "universities": 0,
+   "offerings": 0,
+   "by_role": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "other": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_role_detail": {
+    "textbook": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "recommended": {
+     "universities": 0,
+     "offerings": 0
+    },
+    "mentioned": {
+     "universities": 0,
+     "offerings": 0
+    }
+   },
+   "by_country": {},
+   "used_by": []
+  }
+ ]
+}

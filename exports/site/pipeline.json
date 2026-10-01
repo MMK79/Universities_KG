@@ -1,0 +1,61 @@
+{
+ "subset": "pilot",
+ "generated_at": "2026-10-01T09:27:14+00:00",
+ "stages": [
+  {
+   "id": "universities",
+   "label": "Universities in the subset",
+   "count": 43,
+   "what": "A configured list of universities (domains from the Hipo university-domains list)."
+  },
+  {
+   "id": "pages_fetched",
+   "label": "Pages fetched",
+   "count": 259,
+   "what": "A site-restricted web search finds candidate pages; each is fetched politely (robots.txt, rate limit, no logins) and snapshotted."
+  },
+  {
+   "id": "ml_course_pages",
+   "label": "ML course pages found",
+   "count": 145,
+   "what": "A page counts as an ML course if its title names machine learning (or deep/statistical learning, pattern recognition) and it shows at least three course signals (syllabus, lecture, exam, grading...)."
+  },
+  {
+   "id": "offerings",
+   "label": "Course offerings / distinct courses",
+   "count": 138,
+   "count_secondary": 109,
+   "what": "Title, code, term, level and instructor are read from each course page; offerings of the same course are merged into one distinct course."
+  },
+  {
+   "id": "references",
+   "label": "References extracted",
+   "count": 432,
+   "breakdown": {
+    "matched_to_catalogue": 303,
+    "unmatched_citations": 129
+   },
+   "what": "Book mentions are matched to a hand-curated catalogue of canonical textbooks (title, author, ISBN, link); citation-like lines with no match are kept as unmatched."
+  },
+  {
+   "id": "material_links",
+   "label": "Material links found",
+   "count": 1408,
+   "what": "Links on course pages are classified as slides, lecture notes, video, homework, solutions or exams."
+  },
+  {
+   "id": "materials_downloaded",
+   "label": "Materials downloaded",
+   "count": 518,
+   "count_secondary": 583,
+   "bytes": 1306092375,
+   "breakdown": {
+    "too-large": 1,
+    "http-error": 11,
+    "skipped-login": 53,
+    "ok": 518
+   },
+   "what": "Public slides and lecture notes (PDF/PPTX only) are downloaded politely: robots.txt, 1 request/s per host, 50 MB per file, no logins; out of the eligible distinct links."
+  }
+ ]
+}

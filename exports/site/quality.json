@@ -1,0 +1,65 @@
+{
+ "subset": "pilot",
+ "generated_at": "2026-10-01T09:27:14+00:00",
+ "note": "Items marked measured are database query results. Items marked inferred are one person's spot checks (one rater, no second check) and are rough estimates.",
+ "measured": {
+  "offerings": 138,
+  "offerings_with_term": 89,
+  "offerings_with_instructor": 49,
+  "courses": 109,
+  "courses_level_unknown": 24,
+  "offerings_before_2015": 14,
+  "offerings_2015_2020": 27,
+  "offerings_2021_on": 57,
+  "offerings_year_unknown": 40,
+  "offerings_with_matched_book": 84,
+  "catalogue_books": 44
+ },
+ "caveats": [
+  {
+   "claim": "Book matches are about 97% precise.",
+   "basis": "inferred",
+   "detail": "39 of 40 randomly sampled matched rows were correct, one rater. The one error (a course title taken for Nielsen's book) is now handled by marking that book 'generic'."
+  },
+  {
+   "claim": "About 6 of 138 offerings are not course pages.",
+   "basis": "inferred",
+   "detail": "Study-programme pages and module handbooks (TU Darmstadt, UiO) and one research paper. A MOOC redirect is now rejected."
+  },
+  {
+   "claim": "Term, instructor and level are heuristic and weaker than titles and books.",
+   "basis": "measured",
+   "detail": "See measured.offerings_with_term, offerings_with_instructor and courses_level_unknown. The course-code field has occasional junk (a room number, a navigation code)."
+  },
+  {
+   "claim": "Counts are cumulative over two decades, not current.",
+   "basis": "measured",
+   "detail": "Search surfaces archived offerings; see measured.offerings_before_2015 / 2015_2020 / 2021_on / year_unknown. Filter by year for a current view."
+  },
+  {
+   "claim": "Coverage is near complete for North America and falls off elsewhere.",
+   "basis": "measured",
+   "detail": "Mostly a discovery problem: one search index finds few course pages for Iran, China and Japan; Moodle/Canvas/Ed content is behind logins and is not reached by design; some sites are JavaScript apps."
+  },
+  {
+   "claim": "Aalto's only 'course' is a false positive.",
+   "basis": "inferred",
+   "detail": "It is a research paper about a syllabus, so Finland is effectively 0 of 2."
+  },
+  {
+   "claim": "Unmatched citations are catalogue gaps, not errors.",
+   "basis": "measured",
+   "detail": "They are citation-like lines under a textbook/references heading with no catalogue match (confidence 0.30)."
+  },
+  {
+   "claim": "Catalogue ISBNs are verified, except one.",
+   "basis": "measured",
+   "detail": "Checked against Open Library; Bach's 'Learning Theory from First Principles' returned 404 and is not confirmed."
+  },
+  {
+   "claim": "Downloaded materials are only the public PDF/PPTX slides and notes linked from course pages.",
+   "basis": "measured",
+   "detail": "Video, homework, exams, HTML/Google-Drive links and anything behind a login are not downloaded. Failures are listed per reason in pipeline.json."
+  }
+ ]
+}

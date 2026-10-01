@@ -122,3 +122,7 @@ JOIN course_offerings o ON o.id = cb.offering_id
 JOIN courses c ON c.id = o.course_id
 GROUP BY b.id
 ORDER BY universities DESC, offerings DESC;
+
+-- material_files (phase-2 download results: url, status, local_path, bytes, sha256) is created
+-- by mlcourses.db.MATERIAL_FILES_DDL with IF NOT EXISTS and is intentionally not dropped above,
+-- so that downloaded-file records survive a schema reapply and a `load` rebuild.

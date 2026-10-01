@@ -1,4 +1,5 @@
-"""Command line: mlcourses {schema,crawl,extract,load,report,verify-isbns,list}."""
+"""Command line: mlcourses <schema|crawl|extract|load|report|verify-isbns|list|
+download-materials|export-site>."""
 
 from __future__ import annotations
 
@@ -22,6 +23,12 @@ def main(argv: list[str] | None = None) -> int:
     r = sp.add_parser("report")
     r.add_argument("--subset", default="pilot")
     sp.add_parser("verify-isbns")
+    d = sp.add_parser("download-materials", help="phase 2: fetch public PDF/PPTX slides + notes")
+    d.add_argument("--subset", default="pilot")
+    d.add_argument("--workers", type=int, default=8)
+    d.add_argument("--limit", type=int, help="fetch at most N files (testing)")
+    e = sp.add_parser("export-site", help="write JSON for the website to exports/site/")
+    e.add_argument("--subset", default="pilot")
     a = ap.parse_args(argv)
 
     if a.cmd == "schema":
@@ -35,6 +42,16 @@ def main(argv: list[str] | None = None) -> int:
         from .report import run
 
         print(run(a.subset))
+        return 0
+    if a.cmd == "download-materials":
+        from .materials_dl import run
+
+        print(run(a.subset, workers=a.workers, limit=a.limit))
+        return 0
+    if a.cmd == "export-site":
+        from .export_site import run as export
+
+        print(export(a.subset))
         return 0
     if a.cmd == "verify-isbns":
         from .isbn import verify

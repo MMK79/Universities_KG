@@ -105,6 +105,38 @@ extraction problem.
    serialised with at least 4 s spacing and a retry. The 429 rows are still in
    `crawl_log`.
 
+## Materials downloaded (phase 2, 2026-10-01)
+
+Scope: public **slides and lecture notes linked as PDF or PPTX** from the pilot's course
+pages. Video, homework, exams, HTML pages, Google Drive/Docs links and legacy `.ppt` are
+not downloaded. Method: robots.txt checked per file, at most 1 request per second per host
+(one worker per host), identifying User-Agent, 50 MB per file, 6 GB total, no logins
+(HTTP 401 and redirects to a login page are skipped). Files live outside the repo in
+`/Volumes/MigMig/Personal/Research/ML Course Materials/<country>/<university>/<course-code>/`;
+results are in the `material_files` table (url, status, path, bytes, sha256) and in
+`exports/site/materials.json`. All figures below are database counts (measured).
+
+| Result | Distinct URLs | Notes |
+|---|---|---|
+| Eligible (slides/notes, PDF/PPTX, not on an LMS host) | 583 | of 710 distinct slide/notes links |
+| **ok** (downloaded) | **518** | 1.31 GB (1,306,092,375 bytes), 511 distinct files (7 URLs had identical content to another and point at the same file) |
+| skipped-login | 53 | 28 HTTP 401 (Illinois `/secure/`), 25 redirects to a login page (Tuebingen) |
+| http-error | 11 | 10 HTTP 404 (dead links), 1 HTTP 403 |
+| too-large | 1 | 70 MB, over the 50 MB cap |
+| skipped-robots | 0 | no file in the pilot was disallowed by robots.txt |
+
+Downloaded by type: slides 376 files (1.07 GB), lecture notes 142 files (0.24 GB). By
+country: United States, Canada, Germany, Hong Kong, Korea. Nothing from Iran, China, Japan,
+the Netherlands, Norway or Finland, because no eligible links were found there (see
+"Failure modes", item 1). The 6 GB budget was never reached (about 20% used).
+
+Caveats. (1) "Public" means linked from a public course page and fetched without
+credentials; it does not mean the licence permits redistribution. The files are for the
+thesis corpus and are not republished. (2) The Content-Type was checked, but a PDF's content
+was not inspected: a file can be the right type and still not be a lecture (for example a
+syllabus or an assignment mislabelled as slides). (3) The 11 http-errors are retried on the
+next `make download-materials`; the other final results are not.
+
 ## What this means for the thesis corpus
 
 The KG thesis corpus should include ESL, PRML, Murphy (MLAPP and/or PML1), Goodfellow et
@@ -122,5 +154,5 @@ homework and exams, with URLs) is the other corpus source.
 3. Split module handbooks into one row per module.
 4. Scale to `us_top50`, then `countries_core`. At about 2–3 searches per university, this
    is roughly 5–6 Firecrawl credits per university.
-5. Phase 2: HEAD-check material URLs, expand YouTube playlists, and link homework to
-   solution pairs.
+5. Phase 2 (remaining): expand YouTube playlists, link homework to solution pairs, and
+   decide on legacy `.ppt` and HTML lecture pages. Slides and PDF/PPTX notes are done (above).
