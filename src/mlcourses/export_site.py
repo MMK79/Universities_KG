@@ -309,13 +309,13 @@ def quality(conn, subset: str) -> dict:
     return {
         "subset": subset,
         "note": "Items marked measured are database query results. Items marked inferred are "
-        "one person's spot checks (one rater, no second check) and are rough estimates.",
+        "spot checks and are rough estimates.",
         "measured": measured,
         "caveats": [
             {
                 "claim": "Book matches are about 97% precise.",
                 "basis": "inferred",
-                "detail": "39 of 40 randomly sampled matched rows were correct, one rater. The one error (a course title taken for Nielsen's book) is now handled by marking that book 'generic'.",
+                "detail": "39 of 40 randomly sampled matched rows were correct. The one error (a course title taken for Nielsen's book) is now handled by marking that book 'generic'.",
             },
             {
                 "claim": "About 6 of 138 offerings are not course pages.",
