@@ -3,12 +3,12 @@ SUBSET ?= pilot
 export DATABASE_URL ?= postgresql://mlcourses:mlcourses@localhost:5434/mlcourses
 FIRECRAWL_ENV ?= $(HOME)/Documents/Obsidian Vaults/Personal/.env
 
-.PHONY: download-materials export-site up down schema crawl extract load report test lint psql verify-isbns
+.PHONY: help download-materials export-site up down schema crawl extract load report test lint psql verify-isbns
 
 up:            ## start Postgres (schema applied on first start)
 	docker compose up -d --wait
 
-down:
+down: ## stop Postgres
 	docker compose down
 
 schema:        ## (re)apply the schema — drops and recreates all tables
@@ -21,7 +21,7 @@ crawl:         ## discover + fetch + extract + load for $(SUBSET)
 extract:       ## re-run extraction from the cache only (no network)
 	uv run mlcourses extract --subset $(SUBSET)
 
-load:
+load: ## load extracted data for SUBSET into the database
 	uv run mlcourses load --subset $(SUBSET)
 
 report:        ## write docs/findings-data.md tables from the database
@@ -36,12 +36,15 @@ download-materials:  ## phase 2: polite download of public PDF/PPTX slides + not
 export-site:   ## write JSON for the website to exports/site/
 	uv run mlcourses export-site --subset $(SUBSET)
 
-test:
+test: ## run pytest
 	uv run pytest -q
 
-lint:
+lint: ## ruff check and format check
 	uv run ruff check src tests
 	uv run ruff format --check src tests
 
-psql:
+psql: ## open psql on the database
 	docker compose exec db psql -U mlcourses mlcourses
+
+help: ## list the commands
+	@grep -E '^[a-z0-9-]+:.*## ' $(MAKEFILE_LIST) | sed -E 's/:[^#]*## /\t/' | awk -F'\t' '{printf "  make %-20s %s\n", $$1, $$2}'
